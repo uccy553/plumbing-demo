@@ -1,0 +1,565 @@
+{
+    "businessInfo": {
+        "name": "Joshua Tree Plumbing",
+        "tagline": "Tampa's Most Trusted Plumbing Experts",
+        "description": "Professional plumbing services for residential and commercial properties throughout Tampa Bay. Licensed, insured, and committed to excellence.",
+        "established": "2020",
+        "license": "CFC1234567",
+        "insured": true,
+        "emergency24_7": true
+    },
+    "contact": {
+        "phone": "(813) 455-6022",
+        "phoneRaw": "18134556022",
+        "email": "joshwille81@gmail.com",
+        "address": {
+            "street": "5828 Village Center Dr",
+            "city": "Tampa",
+            "state": "FL",
+            "zip": "33617",
+            "country": "United States"
+        },
+        "hours": {
+            "monday": "7:00 AM - 7:00 PM",
+            "tuesday": "7:00 AM - 7:00 PM",
+            "wednesday": "7:00 AM - 7:00 PM",
+            "thursday": "7:00 AM - 7:00 PM",
+            "friday": "7:00 AM - 7:00 PM",
+            "saturday": "8:00 AM - 5:00 PM",
+            "sunday": "Emergency Service Only",
+            "emergency": "24/7 Available"
+        },
+        "social": {
+            "facebook": "https://web.facebook.com/p/Joshua-Tree-Plumbing-100054227360491/",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+    "hero": {
+        "headline": "Tampa's Most Trusted Plumbing Experts",
+        "subheadline": "Licensed Professionals • Upfront Pricing • Same-Day Service Available",
+        "ctaPrimary": "Schedule Service",
+        "ctaSecondary": "Call (813) 455-6022",
+        "backgroundImage": "/images/hero-tampa-plumbing.jpg",
+        "badges": [
+            {
+                "text": "Licensed & Insured",
+                "icon": "shield"
+            },
+            {
+                "text": "24/7 Emergency",
+                "icon": "clock"
+            },
+            {
+                "text": "Upfront Pricing",
+                "icon": "dollar"
+            },
+            {
+                "text": "Local Experts",
+                "icon": "location"
+            }
+        ]
+    },
+    "emergencyBanner": {
+        "text": "24/7 Emergency Plumbing Services Available",
+        "phone": "(813) 455-6022",
+        "backgroundColor": "#D32F2F"
+    },
+    "services": [
+        {
+            "id": "emergency-repairs",
+            "name": "Emergency Plumbing",
+            "icon": "wrench-alert",
+            "shortDescription": "24/7 emergency service for burst pipes, major leaks, and urgent plumbing issues.",
+            "fullDescription": "When disaster strikes, we're here for you around the clock. Our emergency plumbing team responds quickly to handle burst pipes, severe leaks, backed-up sewers, and other urgent plumbing crises. We'll minimize damage and restore your plumbing system fast.",
+            "features": [
+                "24/7 availability",
+                "Rapid response time",
+                "Fully stocked service vehicles",
+                "Experienced emergency technicians"
+            ],
+            "image": "/images/services/emergency-plumbing.jpg"
+        },
+        {
+            "id": "drain-cleaning",
+            "name": "Drain Cleaning",
+            "icon": "drain",
+            "shortDescription": "Professional drain and sewer cleaning using advanced camera inspection and hydro-jetting.",
+            "fullDescription": "Stubborn clogs don't stand a chance against our professional drain cleaning services. We use state-of-the-art equipment including camera inspection and hydro-jetting to thoroughly clear your drains and prevent future backups.",
+            "features": [
+                "Camera inspection available",
+                "Hydro-jetting service",
+                "Root removal",
+                "Preventive maintenance plans"
+            ],
+            "image": "/images/services/drain-cleaning.jpg"
+        },
+        {
+            "id": "water-heater",
+            "name": "Water Heater Services",
+            "icon": "water-heater",
+            "shortDescription": "Installation, repair, and replacement of traditional and tankless water heaters.",
+            "fullDescription": "From traditional tank water heaters to modern tankless systems, we handle all your water heating needs. Our experts will help you choose the right system for your home and ensure professional installation with optimal performance.",
+            "features": [
+                "Traditional & tankless options",
+                "Energy-efficient solutions",
+                "Same-day installation available",
+                "Warranty on all installations"
+            ],
+            "image": "/images/services/water-heater.jpg"
+        },
+        {
+            "id": "leak-detection",
+            "name": "Leak Detection & Repair",
+            "icon": "droplet-search",
+            "shortDescription": "Advanced leak detection technology to find and fix hidden water leaks.",
+            "fullDescription": "Hidden leaks can cause serious damage and waste water. Our advanced leak detection equipment pinpoints even the smallest leaks behind walls, under slabs, and in hard-to-reach areas. We'll fix it right and prevent costly damage.",
+            "features": [
+                "Non-invasive detection methods",
+                "Electronic leak detection",
+                "Thermal imaging available",
+                "Complete repair service"
+            ],
+            "image": "/images/services/leak-detection.jpg"
+        },
+        {
+            "id": "sewer-line",
+            "name": "Sewer Line Services",
+            "icon": "pipe",
+            "shortDescription": "Comprehensive sewer line repair, replacement, and trenchless technology solutions.",
+            "fullDescription": "Sewer line problems require expert attention. We offer complete sewer services including camera inspection, traditional repair, full replacement, and modern trenchless solutions that minimize disruption to your property.",
+            "features": [
+                "Camera inspection",
+                "Trenchless repair options",
+                "Complete replacement",
+                "Root barrier installation"
+            ],
+            "image": "/images/services/sewer-line.jpg"
+        },
+        {
+            "id": "bathroom-kitchen",
+            "name": "Bathroom & Kitchen Plumbing",
+            "icon": "sink",
+            "shortDescription": "Complete plumbing solutions for bathroom and kitchen remodels and upgrades.",
+            "fullDescription": "Renovating your bathroom or kitchen? Our skilled plumbers handle all aspects of your project, from fixture installation to complete replumbing. We work seamlessly with contractors to bring your vision to life.",
+            "features": [
+                "Fixture installation",
+                "Replumbing services",
+                "Modern upgrade options",
+                "Work with contractors"
+            ],
+            "image": "/images/services/bathroom-kitchen.jpg"
+        },
+        {
+            "id": "commercial",
+            "name": "Commercial Plumbing",
+            "icon": "building",
+            "shortDescription": "Reliable plumbing services for businesses, restaurants, and commercial properties.",
+            "fullDescription": "We understand that commercial plumbing issues can't wait. Our commercial division provides fast, professional service for offices, retail spaces, restaurants, and industrial facilities with minimal disruption to your business.",
+            "features": [
+                "Scheduled maintenance",
+                "After-hours service available",
+                "Code compliance expertise",
+                "Large-scale projects"
+            ],
+            "image": "/images/services/commercial-plumbing.jpg"
+        },
+        {
+            "id": "maintenance",
+            "name": "Preventive Maintenance",
+            "icon": "checklist",
+            "shortDescription": "Regular maintenance plans to prevent plumbing problems before they start.",
+            "fullDescription": "An ounce of prevention is worth a pound of cure. Our maintenance plans include regular inspections, minor repairs, and preventive measures that keep your plumbing system running smoothly and help you avoid costly emergency repairs.",
+            "features": [
+                "Annual inspection plans",
+                "Priority scheduling",
+                "Discounted repair rates",
+                "Detailed reporting"
+            ],
+            "image": "/images/services/maintenance.jpg"
+        }
+    ],
+    "whyChooseUs": [
+        {
+            "title": "Licensed & Insured",
+            "description": "Fully licensed, bonded, and insured for your protection and peace of mind.",
+            "icon": "shield-check",
+            "stat": "100%"
+        },
+        {
+            "title": "Upfront Pricing",
+            "description": "Transparent quotes before we start work. No hidden fees or surprise charges.",
+            "icon": "receipt",
+            "stat": "$0 Hidden"
+        },
+        {
+            "title": "Same-Day Service",
+            "description": "Most repairs completed the same day. We value your time as much as you do.",
+            "icon": "clock-fast",
+            "stat": "Same Day"
+        },
+        {
+            "title": "Lifetime Warranty",
+            "description": "We stand behind our work with comprehensive warranties on all labor.",
+            "icon": "award",
+            "stat": "Lifetime"
+        },
+        {
+            "title": "Clean Technicians",
+            "description": "Respectful, uniformed professionals who treat your home like their own.",
+            "icon": "user-check",
+            "stat": "5-Star"
+        },
+        {
+            "title": "Local Experts",
+            "description": "Tampa Bay natives who know the area's unique plumbing challenges.",
+            "icon": "map-pin",
+            "stat": "Local"
+        }
+    ],
+    "serviceAreas": {
+        "mainArea": "Tampa Bay, FL",
+        "description": "Proudly serving Tampa and the surrounding communities",
+        "cities": [
+            "Tampa",
+            "Brandon",
+            "Riverview",
+            "Carrollwood",
+            "Temple Terrace",
+            "Town 'n' Country",
+            "Egypt Lake-Leto",
+            "Lutz",
+            "Wesley Chapel",
+            "Plant City",
+            "Valrico",
+            "Seffner",
+            "Mango",
+            "Bloomingdale"
+        ],
+        "zipCodes": [
+            "33601",
+            "33602",
+            "33603",
+            "33604",
+            "33605",
+            "33606",
+            "33607",
+            "33609",
+            "33610",
+            "33611",
+            "33612",
+            "33613",
+            "33614",
+            "33615",
+            "33616",
+            "33617",
+            "33618",
+            "33619",
+            "33620",
+            "33621",
+            "33624",
+            "33625",
+            "33626",
+            "33629",
+            "33634",
+            "33635",
+            "33637"
+        ]
+    },
+    "testimonials": [
+        {
+            "id": 1,
+            "name": "Sarah Mitchell",
+            "location": "Brandon, FL",
+            "rating": 5,
+            "date": "2024-11-15",
+            "text": "Joshua Tree Plumbing saved us during a pipe burst emergency at 2 AM. They arrived within 45 minutes and had everything fixed by morning. Professional, courteous, and fairly priced. Highly recommend!",
+            "service": "Emergency Repair",
+            "avatar": "SM"
+        },
+        {
+            "id": 2,
+            "name": "Michael Rodriguez",
+            "location": "Tampa, FL",
+            "rating": 5,
+            "date": "2024-11-02",
+            "text": "Had them install a new tankless water heater. The technician explained everything clearly, the price was transparent, and the installation was flawless. Three months later and we're loving the endless hot water!",
+            "service": "Water Heater Installation",
+            "avatar": "MR"
+        },
+        {
+            "id": 3,
+            "name": "Jennifer Park",
+            "location": "Carrollwood, FL",
+            "rating": 5,
+            "date": "2024-10-28",
+            "text": "We've used Joshua Tree for several projects now - from simple repairs to a complete bathroom replumb. They're always on time, clean, and do excellent work. They're our go-to plumbers now.",
+            "service": "Bathroom Plumbing",
+            "avatar": "JP"
+        },
+        {
+            "id": 4,
+            "name": "David Thompson",
+            "location": "Temple Terrace, FL",
+            "rating": 5,
+            "date": "2024-10-15",
+            "text": "Called about a persistent drain issue that other plumbers couldn't fix. They used a camera to find the problem and hydro-jetted the line. Problem solved! Great diagnostic work and fair pricing.",
+            "service": "Drain Cleaning",
+            "avatar": "DT"
+        },
+        {
+            "id": 5,
+            "name": "Lisa Nguyen",
+            "location": "Riverview, FL",
+            "rating": 5,
+            "date": "2024-09-30",
+            "text": "Very impressed with their professionalism. The plumber wore shoe covers, explained everything he was doing, and left the work area cleaner than he found it. Quality work and quality people.",
+            "service": "Leak Repair",
+            "avatar": "LN"
+        },
+        {
+            "id": 6,
+            "name": "Robert Chen",
+            "location": "Wesley Chapel, FL",
+            "rating": 5,
+            "date": "2024-09-18",
+            "text": "We needed sewer line work and were dreading the disruption. They used trenchless technology and completed everything in one day with minimal mess. Incredible service and technology!",
+            "service": "Sewer Line Repair",
+            "avatar": "RC"
+        }
+    ],
+    "about": {
+        "headline": "Your Trusted Tampa Bay Plumbing Partner",
+        "story": "Joshua Tree Plumbing was founded with a simple mission: to provide Tampa Bay homeowners and businesses with honest, professional plumbing services they can trust. As a locally owned and operated company, we understand the unique plumbing challenges that Florida properties face, from hard water issues to aging infrastructure.\n\nOur team of licensed, experienced plumbers treats every job with the same care and attention we'd want for our own homes. We believe in doing the job right the first time, using quality materials, and standing behind our work with solid warranties.\n\nWhat sets us apart is our commitment to transparency. We provide upfront pricing, explain your options clearly, and never pressure you into unnecessary services. When you call Joshua Tree Plumbing, you're getting straight answers and skilled craftsmanship.",
+        "mission": "To deliver exceptional plumbing services with integrity, professionalism, and a commitment to customer satisfaction.",
+        "values": [
+            "Honesty and transparency in all interactions",
+            "Quality workmanship on every job",
+            "Respect for your home and time",
+            "Continuous training and improvement",
+            "Community involvement and support"
+        ],
+        "certifications": [
+            "State of Florida Licensed Plumbing Contractor",
+            "Fully Insured & Bonded",
+            "EPA Lead-Safe Certified",
+            "OSHA Safety Trained",
+            "Background Checked Technicians"
+        ],
+        "team": {
+            "description": "Our team consists of licensed master plumbers and experienced technicians who undergo regular training on the latest plumbing technologies and techniques. Every team member is background checked, drug tested, and committed to providing exceptional service.",
+            "size": "10+ Skilled Professionals"
+        }
+    },
+    "process": [
+        {
+            "step": 1,
+            "title": "Contact Us",
+            "description": "Call us at (813) 455-6022 or book online. We'll discuss your plumbing needs and schedule a convenient time.",
+            "icon": "phone"
+        },
+        {
+            "step": 2,
+            "title": "We Arrive Promptly",
+            "description": "Our uniformed technician arrives on time in a fully-equipped service vehicle, ready to handle your plumbing issue.",
+            "icon": "truck"
+        },
+        {
+            "step": 3,
+            "title": "Diagnose & Quote",
+            "description": "We'll thoroughly diagnose the problem and provide a clear, upfront quote before starting any work. No surprises.",
+            "icon": "clipboard"
+        },
+        {
+            "step": 4,
+            "title": "Complete the Work",
+            "description": "Once approved, we'll complete the repair or installation efficiently using quality materials and proven techniques.",
+            "icon": "wrench"
+        },
+        {
+            "step": 5,
+            "title": "Follow-Up & Guarantee",
+            "description": "We'll clean up completely, answer any questions, and back our work with our satisfaction guarantee.",
+            "icon": "check-circle"
+        }
+    ],
+    "promotions": [
+        {
+            "id": "first-time",
+            "title": "$50 Off First Service",
+            "description": "New customers save $50 on any service over $200",
+            "code": "WELCOME50",
+            "terms": "Valid for new customers only. Minimum service charge $200. Cannot be combined with other offers.",
+            "expiration": "2025-12-31",
+            "active": true
+        },
+        {
+            "id": "senior",
+            "title": "Senior Discount",
+            "description": "10% off for seniors 65+",
+            "code": "SENIOR10",
+            "terms": "Valid ID required. Cannot be combined with other offers. Discount applies to labor only.",
+            "expiration": null,
+            "active": true
+        },
+        {
+            "id": "military",
+            "title": "Military & First Responder Discount",
+            "description": "15% off for active military, veterans, police, and firefighters",
+            "code": "HEROES15",
+            "terms": "Valid ID required. Cannot be combined with other offers. Discount applies to labor only.",
+            "expiration": null,
+            "active": true
+        },
+        {
+            "id": "maintenance",
+            "title": "Annual Maintenance Plan Special",
+            "description": "Save 20% on annual maintenance contracts",
+            "code": "MAINTAIN20",
+            "terms": "12-month contract required. Includes 2 annual inspections and priority scheduling.",
+            "expiration": "2025-03-31",
+            "active": true
+        }
+    ],
+    "faq": [
+        {
+            "question": "Do you offer 24/7 emergency plumbing services?",
+            "answer": "Yes! We provide 24/7 emergency plumbing services throughout Tampa Bay. Whether it's a burst pipe at 2 AM or a backed-up sewer on a holiday, we're here to help. Call (813) 455-6022 anytime for immediate assistance.",
+            "category": "Emergency Services"
+        },
+        {
+            "question": "How quickly can you respond to an emergency?",
+            "answer": "For emergency situations, we typically arrive within 60-90 minutes depending on your location and current traffic conditions. We prioritize emergency calls and dispatch the nearest available technician to your location.",
+            "category": "Emergency Services"
+        },
+        {
+            "question": "Do you provide upfront pricing?",
+            "answer": "Absolutely. We believe in transparent pricing with no hidden fees. After diagnosing your plumbing issue, we'll provide a clear, detailed quote before starting any work. You'll know exactly what you're paying for, and we won't proceed without your approval.",
+            "category": "Pricing"
+        },
+        {
+            "question": "Are you licensed and insured?",
+            "answer": "Yes, Joshua Tree Plumbing is fully licensed by the State of Florida (License #CFC1234567), bonded, and insured. All our technicians are licensed professionals who undergo regular training and background checks.",
+            "category": "Credentials"
+        },
+        {
+            "question": "What payment methods do you accept?",
+            "answer": "We accept all major credit cards (Visa, MasterCard, American Express, Discover), debit cards, checks, and cash. We also offer financing options for larger projects through approved credit partners.",
+            "category": "Pricing"
+        },
+        {
+            "question": "Do you offer warranties on your work?",
+            "answer": "Yes! We stand behind our work with a comprehensive warranty. Labor is covered for the lifetime of your ownership of the property, and parts are covered according to manufacturer warranties. Specific warranty terms are provided with each service.",
+            "category": "Warranties"
+        },
+        {
+            "question": "Can you help with kitchen and bathroom remodeling?",
+            "answer": "Yes, we handle all plumbing aspects of kitchen and bathroom remodels, including fixture installation, replumbing, gas line work, and drain modifications. We work seamlessly with general contractors and can also recommend trusted partners for other aspects of your renovation.",
+            "category": "Services"
+        },
+        {
+            "question": "How do I know if I need to replace or repair my water heater?",
+            "answer": "Generally, if your water heater is over 10-12 years old, making unusual noises, leaking, or not providing consistent hot water, replacement is often more cost-effective than repair. Our technicians will assess your specific situation and provide honest recommendations based on your water heater's condition and your household needs.",
+            "category": "Water Heaters"
+        },
+        {
+            "question": "What should I do if I have a burst pipe?",
+            "answer": "First, shut off the main water valve to your home immediately. Then call us at (813) 455-6022 for emergency service. If possible, open faucets to drain remaining water and move valuables away from the affected area. Our emergency team will arrive quickly to make repairs and minimize damage.",
+            "category": "Emergency Services"
+        },
+        {
+            "question": "Do you service commercial properties?",
+            "answer": "Yes, we provide comprehensive plumbing services for commercial properties including offices, retail spaces, restaurants, and industrial facilities. We offer scheduled maintenance programs, after-hours service, and can handle projects of any size.",
+            "category": "Services"
+        },
+        {
+            "question": "How often should I have my drains professionally cleaned?",
+            "answer": "For most homes, we recommend professional drain cleaning every 18-24 months as preventive maintenance. However, if you have large trees near your sewer line, older pipes, or frequent slow drains, annual cleaning may be beneficial. Commercial properties often benefit from quarterly maintenance.",
+            "category": "Maintenance"
+        },
+        {
+            "question": "What areas do you serve?",
+            "answer": "We serve Tampa and all surrounding communities including Brandon, Riverview, Carrollwood, Temple Terrace, Lutz, Wesley Chapel, Plant City, and more. If you're in the Tampa Bay area, give us a call and we'll let you know if we can help.",
+            "category": "Service Area"
+        },
+        {
+            "question": "Can you detect leaks behind walls or under slabs?",
+            "answer": "Yes, we use advanced leak detection equipment including electronic sensors and thermal imaging to locate hidden leaks behind walls, under slabs, and in other hard-to-reach areas. This non-invasive technology allows us to pinpoint leaks without unnecessary demolition.",
+            "category": "Leak Detection"
+        },
+        {
+            "question": "Do you offer preventive maintenance plans?",
+            "answer": "Yes! Our preventive maintenance plans include regular inspections, minor repairs, priority scheduling, and discounted rates on services. These plans help catch problems early, extend the life of your plumbing system, and save you money on emergency repairs.",
+            "category": "Maintenance"
+        },
+        {
+            "question": "What is trenchless sewer repair?",
+            "answer": "Trenchless sewer repair is a modern method that allows us to repair or replace your sewer line without extensive excavation of your yard. Using specialized equipment, we can often complete the work through small access points, minimizing disruption to your landscaping and property.",
+            "category": "Sewer Services"
+        }
+    ],
+    "seo": {
+        "meta": {
+            "title": "Joshua Tree Plumbing | Tampa's Trusted Plumber | 24/7 Emergency Service",
+            "description": "Licensed Tampa plumber offering 24/7 emergency service, drain cleaning, water heater installation & more. Upfront pricing, same-day service. Call (813) 455-6022",
+            "keywords": "Tampa plumber, emergency plumbing Tampa, drain cleaning Tampa, water heater installation Tampa, plumbing services Tampa FL, licensed plumber Tampa, 24/7 plumber Tampa"
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "Plumber",
+            "name": "Joshua Tree Plumbing",
+            "image": "https://joshuatreeplumbing.com/logo.png",
+            "telephone": "(813) 455-6022",
+            "email": "joshwille81@gmail.com",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "5828 Village Center Dr",
+                "addressLocality": "Tampa",
+                "addressRegion": "FL",
+                "postalCode": "33617",
+                "addressCountry": "US"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "28.0489",
+                "longitude": "-82.3527"
+            },
+            "priceRange": "$$",
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "Monday",
+                        "Tuesday",
+                        "Wednesday",
+                        "Thursday",
+                        "Friday"
+                    ],
+                    "opens": "07:00",
+                    "closes": "19:00"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Saturday",
+                    "opens": "08:00",
+                    "closes": "17:00"
+                }
+            ],
+            "areaServed": "Tampa Bay, FL"
+        }
+    },
+    "callToActions": {
+        "primary": {
+            "text": "Schedule Service",
+            "action": "open_contact_form"
+        },
+        "secondary": {
+            "text": "Call Now",
+            "action": "tel:18134556022"
+        },
+        "emergency": {
+            "text": "24/7 Emergency Service",
+            "action": "tel:18134556022"
+        }
+    }
+}
