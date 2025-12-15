@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { CheckCircle, Shield, Award, Users, FileCheck, UserCheck } from 'lucide-react';
 import { FadeInView } from '@/components/animations/FadeInView';
 import { SlideInView } from '@/components/animations/SlideInView';
@@ -80,24 +81,30 @@ export function AboutSection({ about, businessInfo }: AboutSectionProps) {
                     {/* Certifications & Info Side */}
                     <SlideInView direction="right">
                         <div className="space-y-8">
-                            {/* Team Info */}
-                            <div className="bg-primary-900 text-white rounded-2xl p-8">
-                                <div className="flex items-center gap-4 mb-4">
-                                    <div className="w-14 h-14 bg-secondary-500 rounded-xl flex items-center justify-center">
-                                        <Users size={28} />
-                                    </div>
-                                    <div>
-                                        <h3 className="font-heading font-bold text-xl">
-                                            {about.team.size}
-                                        </h3>
-                                        <p className="text-primary-200 text-sm">
-                                            Serving Tampa Bay
-                                        </p>
+                            {/* Team Image */}
+                            <div className="relative rounded-2xl overflow-hidden shadow-card">
+                                <Image
+                                    src="/images/team.jpg"
+                                    alt="Joshua Tree Plumbing Team"
+                                    width={600}
+                                    height={400}
+                                    className="w-full h-auto object-cover"
+                                />
+                                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+                                    <div className="flex items-center gap-3">
+                                        <div className="w-12 h-12 bg-secondary-500 rounded-xl flex items-center justify-center">
+                                            <Users size={24} className="text-white" />
+                                        </div>
+                                        <div className="text-white">
+                                            <h3 className="font-heading font-bold text-lg">
+                                                {about.team.size}
+                                            </h3>
+                                            <p className="text-white/80 text-sm">
+                                                Serving Tampa Bay
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                                <p className="text-primary-100 leading-relaxed">
-                                    {about.team.description}
-                                </p>
                             </div>
 
                             {/* Certifications Grid */}

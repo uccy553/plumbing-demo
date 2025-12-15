@@ -1,9 +1,10 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, Wrench, Droplet, Flame, Search, PipetteIcon, Bath, Building2, ClipboardList } from 'lucide-react';
 import { FadeInView, StaggerContainer, StaggerItem } from '@/components/animations/FadeInView';
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
+import { Card, CardContent } from '@/components/ui/Card';
 import { cn } from '@/lib/utils';
 import type { Service } from '@/types';
 
@@ -51,31 +52,42 @@ export function ServicesShowcase({ services }: ServicesShowcaseProps) {
                             <StaggerItem key={service.id}>
                                 <Link href={`/services/${service.id}`}>
                                     <Card
-                                        className="h-full group cursor-pointer"
-                                        padding="lg"
+                                        className="h-full group cursor-pointer overflow-hidden"
+                                        padding="none"
                                         hover
                                     >
-                                        <CardContent>
-                                            {/* Icon */}
+                                        {/* Service Image */}
+                                        <div className="relative h-40 overflow-hidden">
+                                            <Image
+                                                src={service.image}
+                                                alt={service.name}
+                                                fill
+                                                className="object-cover group-hover:scale-110 transition-transform duration-500"
+                                            />
+                                            {/* Overlay with Icon */}
+                                            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                                             <div
                                                 className={cn(
-                                                    'w-14 h-14 rounded-xl mb-4',
-                                                    'bg-primary-100 text-primary-900',
+                                                    'absolute bottom-3 left-3',
+                                                    'w-10 h-10 rounded-lg',
+                                                    'bg-white/90 text-primary-900',
                                                     'flex items-center justify-center',
                                                     'group-hover:bg-secondary-500 group-hover:text-white',
                                                     'transition-colors duration-300'
                                                 )}
                                             >
-                                                <Icon size={28} />
+                                                <Icon size={22} />
                                             </div>
+                                        </div>
 
+                                        <CardContent className="p-4">
                                             {/* Title */}
                                             <h3 className="font-heading font-bold text-lg text-primary-900 mb-2 group-hover:text-secondary-500 transition-colors">
                                                 {service.name}
                                             </h3>
 
                                             {/* Description */}
-                                            <p className="text-neutral-600 text-sm leading-relaxed mb-4 line-clamp-2">
+                                            <p className="text-neutral-600 text-sm leading-relaxed mb-3 line-clamp-2">
                                                 {service.shortDescription}
                                             </p>
 
@@ -108,3 +120,4 @@ export function ServicesShowcase({ services }: ServicesShowcaseProps) {
         </section>
     );
 }
+

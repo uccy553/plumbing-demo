@@ -44,8 +44,14 @@ export function HeroSection({ hero, contact }: HeroSectionProps) {
             id="hero"
             className="relative min-h-screen flex items-center justify-center overflow-hidden"
         >
-            {/* Background Gradient */}
-            <div className="absolute inset-0 bg-gradient-hero" />
+            {/* Background Image */}
+            <div
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+                style={{ backgroundImage: "url('/hero.webp')" }}
+            />
+
+            {/* Dark Overlay - entire section */}
+            <div className="absolute inset-0 bg-black/60" />
 
             {/* Decorative Overlay Pattern */}
             <div className="absolute inset-0 opacity-10">

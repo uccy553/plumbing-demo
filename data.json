@@ -78,7 +78,7 @@
                 "Fully stocked service vehicles",
                 "Experienced emergency technicians"
             ],
-            "image": "/images/services/emergency-plumbing.jpg"
+            "image": "/images/emergency-plumbing.jpg"
         },
         {
             "id": "drain-cleaning",
@@ -92,7 +92,7 @@
                 "Root removal",
                 "Preventive maintenance plans"
             ],
-            "image": "/images/services/drain-cleaning.jpg"
+            "image": "/images/drain-cleaning.jpg"
         },
         {
             "id": "water-heater",
@@ -106,7 +106,7 @@
                 "Same-day installation available",
                 "Warranty on all installations"
             ],
-            "image": "/images/services/water-heater.jpg"
+            "image": "/images/water-heater.jpg"
         },
         {
             "id": "leak-detection",
@@ -120,7 +120,7 @@
                 "Thermal imaging available",
                 "Complete repair service"
             ],
-            "image": "/images/services/leak-detection.jpg"
+            "image": "/images/emergency-plumbing.jpg"
         },
         {
             "id": "sewer-line",
@@ -134,7 +134,7 @@
                 "Complete replacement",
                 "Root barrier installation"
             ],
-            "image": "/images/services/sewer-line.jpg"
+            "image": "/images/sewer-line.jpg"
         },
         {
             "id": "bathroom-kitchen",
@@ -148,7 +148,7 @@
                 "Modern upgrade options",
                 "Work with contractors"
             ],
-            "image": "/images/services/bathroom-kitchen.jpg"
+            "image": "/images/bathroom-kitchen.jpg"
         },
         {
             "id": "commercial",
@@ -162,7 +162,7 @@
                 "Code compliance expertise",
                 "Large-scale projects"
             ],
-            "image": "/images/services/commercial-plumbing.jpg"
+            "image": "/images/commercial-plumbing.jpg"
         },
         {
             "id": "maintenance",
@@ -176,7 +176,7 @@
                 "Discounted repair rates",
                 "Detailed reporting"
             ],
-            "image": "/images/services/maintenance.jpg"
+            "image": "/images/maintenance.jpg"
         }
     ],
     "whyChooseUs": [
