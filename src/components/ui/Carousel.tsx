@@ -77,7 +77,7 @@ export function Carousel({
 
     return (
         <div
-            className={cn('relative', className)}
+            className={cn('relative overflow-hidden', className)}
             onMouseEnter={() => setIsPaused(true)}
             onMouseLeave={() => setIsPaused(false)}
         >

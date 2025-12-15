@@ -77,7 +77,7 @@ export default async function RootLayout({
   return (
     <html
       lang="en"
-      className={`${montserrat.variable} ${merriweather.variable} ${inter.variable}`}
+      className="overflow-x-hidden"
       suppressHydrationWarning
     >
       <head>
@@ -98,7 +98,7 @@ export default async function RootLayout({
         {/* Disable phone number detection on iOS */}
         <meta name="format-detection" content="telephone=no" />
       </head>
-      <body className="min-h-screen antialiased" suppressHydrationWarning>
+      <body className="min-h-screen antialiased overflow-x-hidden" suppressHydrationWarning>
         {children}
       </body>
     </html>
