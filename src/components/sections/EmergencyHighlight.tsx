@@ -24,7 +24,7 @@ export function EmergencyHighlight({ contact }: EmergencyHighlightProps) {
             <div className="absolute inset-0 bg-gradient-emergency" />
 
             {/* Animated Background Pattern */}
-            <div className="absolute inset-0 opacity-10">
+            <div className="absolute inset-0 opacity-10 overflow-hidden">
                 <motion.div
                     animate={{
                         scale: [1, 1.2, 1],

@@ -15,9 +15,9 @@ export function FinalCTA({ callToActions, contact }: FinalCTAProps) {
     return (
         <section id="contact" className="py-16 lg:py-24 bg-gradient-hero relative overflow-hidden">
             {/* Decorative Elements */}
-            <div className="absolute inset-0 opacity-10">
-                <div className="absolute -left-32 top-0 w-96 h-96 bg-secondary-500 rounded-full blur-3xl" />
-                <div className="absolute -right-32 bottom-0 w-96 h-96 bg-accent-500 rounded-full blur-3xl" />
+            <div className="absolute inset-0 opacity-10 overflow-hidden">
+                <div className="absolute left-0 top-0 w-96 h-96 bg-secondary-500 rounded-full blur-3xl -translate-x-1/2" />
+                <div className="absolute right-0 bottom-0 w-96 h-96 bg-accent-500 rounded-full blur-3xl translate-x-1/2" />
             </div>
 
             <div className="relative z-10 container mx-auto px-4">

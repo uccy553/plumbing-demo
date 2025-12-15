@@ -54,7 +54,7 @@ export function HeroSection({ hero, contact }: HeroSectionProps) {
             <div className="absolute inset-0 bg-black/60" />
 
             {/* Decorative Overlay Pattern */}
-            <div className="absolute inset-0 opacity-10">
+            <div className="absolute inset-0 opacity-10 overflow-hidden">
                 <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2" />
                 <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-secondary-500 rounded-full blur-3xl transform translate-x-1/4 translate-y-1/4" />
             </div>
