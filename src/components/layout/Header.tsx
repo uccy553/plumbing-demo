@@ -40,9 +40,9 @@ export function Header({ contact, services, emergencyBanner }: HeaderProps) {
 
     return (
         <>
-            {/* Emergency Banner */}
+            {/* Emergency Banner - hidden on mobile */}
             <div
-                className="bg-emergency-600 text-white py-2 px-4"
+                className="hidden md:block bg-emergency-600 text-white py-2 px-4"
                 style={{ backgroundColor: emergencyBanner.backgroundColor }}
             >
                 <div className="container mx-auto flex items-center justify-center gap-3 text-sm md:text-base">
