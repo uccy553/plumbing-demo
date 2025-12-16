@@ -83,9 +83,9 @@ export function ContactSection({ contact, services }: ContactSectionProps) {
                                     <div className="w-12 h-12 bg-accent-100 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-accent-500 transition-colors">
                                         <Mail size={22} className="text-accent-600 group-hover:text-white" />
                                     </div>
-                                    <div>
+                                    <div className="min-w-0 flex-1">
                                         <p className="font-medium text-neutral-500 text-sm">Email Us</p>
-                                        <p className="font-heading font-bold text-lg text-primary-900">
+                                        <p className="font-heading font-bold text-sm sm:text-lg text-primary-900 break-all">
                                             {contact.email}
                                         </p>
                                     </div>
@@ -124,13 +124,19 @@ export function ContactSection({ contact, services }: ContactSectionProps) {
                                     </div>
                                     <div className="flex-1">
                                         <p className="font-medium text-neutral-500 text-sm mb-2">Business Hours</p>
-                                        <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
-                                            <span className="text-neutral-600">Monday - Friday:</span>
-                                            <span className="text-primary-900 font-medium">{contact.hours.monday}</span>
-                                            <span className="text-neutral-600">Saturday:</span>
-                                            <span className="text-primary-900 font-medium">{contact.hours.saturday}</span>
-                                            <span className="text-neutral-600">Sunday:</span>
-                                            <span className="text-primary-900 font-medium">{contact.hours.sunday}</span>
+                                        <div className="space-y-1 text-sm">
+                                            <div className="flex flex-col sm:flex-row sm:justify-between sm:gap-2">
+                                                <span className="text-neutral-600">Monday - Friday:</span>
+                                                <span className="text-primary-900 font-medium">{contact.hours.monday}</span>
+                                            </div>
+                                            <div className="flex flex-col sm:flex-row sm:justify-between sm:gap-2">
+                                                <span className="text-neutral-600">Saturday:</span>
+                                                <span className="text-primary-900 font-medium">{contact.hours.saturday}</span>
+                                            </div>
+                                            <div className="flex flex-col sm:flex-row sm:justify-between sm:gap-2">
+                                                <span className="text-neutral-600">Sunday:</span>
+                                                <span className="text-primary-900 font-medium">{contact.hours.sunday}</span>
+                                            </div>
                                         </div>
                                         <p className="mt-3 text-sm font-semibold text-secondary-500">
                                             🚨 {contact.hours.emergency}
