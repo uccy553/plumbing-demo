@@ -46,17 +46,17 @@ export function Footer({
                         <div className="flex items-center gap-3 mb-4">
                             <Image
                                 src="/plumbing-logo.svg"
-                                alt="Joshua Tree Plumbing"
+                                alt={businessInfo.name}
                                 width={48}
                                 height={48}
                                 className="w-12 h-12"
                             />
                             <div>
                                 <span className="font-heading font-bold text-lg">
-                                    Joshua Tree
+                                    {businessInfo.shortNameLine1}
                                 </span>
                                 <span className="block text-xs text-primary-200 -mt-1">
-                                    Plumbing
+                                    {businessInfo.shortNameLine2}
                                 </span>
                             </div>
                         </div>
