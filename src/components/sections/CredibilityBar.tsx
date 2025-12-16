@@ -9,30 +9,34 @@ interface CredibilityBarProps {
     businessInfo: BusinessInfo;
 }
 
-const stats = [
+const getStats = (state: string) => [
     {
         icon: Shield,
         stat: 'Licensed & Insured',
-        description: 'State of Florida Licensed',
+        stateLabel: `State of ${state === 'TX' ? 'Texas' : state === 'GA' ? 'Georgia' : state === 'FL' ? 'Florida' : state} Licensed`,
     },
     {
         icon: Star,
         stat: '5-Star Rated',
-        description: 'Trusted by Customers',
+        stateLabel: 'Trusted by Customers',
     },
     {
         icon: Clock,
         stat: '24/7 Emergency',
-        description: 'Always Available',
+        stateLabel: 'Always Available',
     },
     {
         icon: Calendar,
         stat: 'Same-Day Service',
-        description: 'Fast Response Times',
+        stateLabel: 'Fast Response Times',
     },
 ];
 
 export function CredibilityBar({ businessInfo }: CredibilityBarProps) {
+    // Get state from the license prefix (assuming format like TX1234567)
+    const stateFromLicense = businessInfo.license.substring(0, 2);
+    const stats = getStats(stateFromLicense);
+
     // Update license from data
     const updatedStats = stats.map((item) => {
         if (item.stat === 'Licensed & Insured') {
@@ -41,7 +45,10 @@ export function CredibilityBar({ businessInfo }: CredibilityBarProps) {
                 description: `License #${businessInfo.license}`,
             };
         }
-        return item;
+        return {
+            ...item,
+            description: item.stateLabel,
+        };
     });
 
     return (

@@ -43,19 +43,20 @@ export default async function HomePage() {
         <WhyChooseUs
           items={data.whyChooseUs}
           businessName={data.businessInfo.name}
+          serviceAreas={data.serviceAreas}
         />
 
         {/* 5. Process Section */}
         <ProcessSection steps={data.process} />
 
         {/* 6. Testimonials */}
-        <TestimonialsSection testimonials={data.testimonials} />
+        <TestimonialsSection testimonials={data.testimonials} serviceAreas={data.serviceAreas} />
 
         {/* 7. Emergency Highlight */}
         <EmergencyHighlight contact={data.contact} />
 
         {/* 8. About Section */}
-        <AboutSection about={data.about} businessInfo={data.businessInfo} />
+        <AboutSection about={data.about} businessInfo={data.businessInfo} serviceAreas={data.serviceAreas} contact={data.contact} />
 
         {/* 9. Service Areas Map */}
         <ServiceAreasMap
@@ -70,7 +71,7 @@ export default async function HomePage() {
         <FAQSection faqs={data.faq} />
 
         {/* 12. Final CTA */}
-        <FinalCTA callToActions={data.callToActions} contact={data.contact} />
+        <FinalCTA callToActions={data.callToActions} contact={data.contact} serviceAreas={data.serviceAreas} />
 
         {/* 13. Contact Section */}
         <ContactSection contact={data.contact} services={data.services} />

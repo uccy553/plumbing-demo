@@ -11,7 +11,7 @@ import {
 import { SlideInView } from '@/components/animations/SlideInView';
 import { FadeInView, StaggerContainer, StaggerItem } from '@/components/animations/FadeInView';
 import { cn } from '@/lib/utils';
-import type { WhyChooseUsItem } from '@/types';
+import type { WhyChooseUsItem, ServiceAreas } from '@/types';
 
 const iconMap: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
     'shield-check': ShieldCheck,
@@ -25,9 +25,10 @@ const iconMap: Record<string, React.ComponentType<{ size?: number; className?: s
 interface WhyChooseUsProps {
     items: WhyChooseUsItem[];
     businessName?: string;
+    serviceAreas: ServiceAreas;
 }
 
-export function WhyChooseUs({ items, businessName = 'Joshua Tree Plumbing' }: WhyChooseUsProps) {
+export function WhyChooseUs({ items, businessName = 'Omega Plumbing', serviceAreas }: WhyChooseUsProps) {
     return (
         <section id="why-choose-us" className="py-16 lg:py-24 bg-white">
             <div className="container mx-auto px-4">
@@ -35,7 +36,7 @@ export function WhyChooseUs({ items, businessName = 'Joshua Tree Plumbing' }: Wh
                     {/* Left Column - Content */}
                     <SlideInView direction="left" className="lg:col-span-2">
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-primary-900 mb-6 leading-tight">
-                            Why Tampa Trusts {businessName.split(' ')[0]} {businessName.split(' ')[1]}
+                            Why {serviceAreas.cities[0]} Trusts {businessName.split(' ')[0]} {businessName.split(' ')[1]}
                         </h2>
                         <p className="text-lg text-neutral-600 mb-8 leading-relaxed">
                             When you call us, you can expect honest communication, quality

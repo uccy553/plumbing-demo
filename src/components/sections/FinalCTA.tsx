@@ -4,14 +4,15 @@ import { Phone, Shield, Award, Clock } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/Button';
 import { cn } from '@/lib/utils';
-import type { CallToActions, ContactInfo } from '@/types';
+import type { CallToActions, ContactInfo, ServiceAreas } from '@/types';
 
 interface FinalCTAProps {
     callToActions: CallToActions;
     contact: ContactInfo;
+    serviceAreas: ServiceAreas;
 }
 
-export function FinalCTA({ callToActions, contact }: FinalCTAProps) {
+export function FinalCTA({ callToActions, contact, serviceAreas }: FinalCTAProps) {
     return (
         <section id="contact" className="py-16 lg:py-24 bg-gradient-hero relative overflow-hidden">
             {/* Decorative Elements */}
@@ -41,7 +42,7 @@ export function FinalCTA({ callToActions, contact }: FinalCTAProps) {
                         transition={{ duration: 0.6, delay: 0.1 }}
                         className="text-xl text-primary-100 mb-10 max-w-2xl mx-auto"
                     >
-                        Get fast, reliable plumbing service from Tampa's most trusted professionals.
+                        Get fast, reliable plumbing service from {serviceAreas.cities[0]}'s most trusted professionals.
                         Schedule your service today and experience the difference.
                     </motion.p>
 

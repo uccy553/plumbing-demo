@@ -7,13 +7,14 @@ import { Card, CardContent } from '@/components/ui/Card';
 import { StarRating } from '@/components/ui/Badge';
 import { cn } from '@/lib/utils';
 import { formatDate, calculateAverageRating } from '@/lib/utils';
-import type { Testimonial } from '@/types';
+import type { Testimonial, ServiceAreas } from '@/types';
 
 interface TestimonialsSectionProps {
     testimonials: Testimonial[];
+    serviceAreas: ServiceAreas;
 }
 
-export function TestimonialsSection({ testimonials }: TestimonialsSectionProps) {
+export function TestimonialsSection({ testimonials, serviceAreas }: TestimonialsSectionProps) {
     const avgRating = calculateAverageRating(testimonials.map((t) => t.rating));
 
     return (
@@ -32,7 +33,7 @@ export function TestimonialsSection({ testimonials }: TestimonialsSectionProps) 
                         </span>
                     </div>
                     <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-                        Don't just take our word for it — hear from Tampa homeowners who trusted us with their plumbing needs.
+                        Don't just take our word for it — hear from {serviceAreas.cities[0]} homeowners who trusted us with their plumbing needs.
                     </p>
                 </FadeInView>
 

@@ -6,22 +6,43 @@ import { FadeInView } from '@/components/animations/FadeInView';
 import { SlideInView } from '@/components/animations/SlideInView';
 import { Badge } from '@/components/ui/Badge';
 import { cn } from '@/lib/utils';
-import type { AboutSection as AboutSectionType, BusinessInfo } from '@/types';
+import type { AboutSection as AboutSectionType, BusinessInfo, ServiceAreas, ContactInfo } from '@/types';
 
-const certificationIcons: Record<string, typeof Shield> = {
-    'State of Florida Licensed Plumbing Contractor': FileCheck,
-    'Fully Insured & Bonded': Shield,
-    'EPA Lead-Safe Certified': Award,
-    'OSHA Safety Trained': Users,
-    'Background Checked Technicians': UserCheck,
+const getStateName = (stateCode: string): string => {
+    const stateNames: Record<string, string> = {
+        'TX': 'Texas',
+        'FL': 'Florida',
+        'GA': 'Georgia',
+        'CA': 'California',
+        'NY': 'New York',
+        'AZ': 'Arizona',
+        'CO': 'Colorado',
+        'NC': 'North Carolina',
+        'SC': 'South Carolina',
+        'TN': 'Tennessee',
+        'AL': 'Alabama',
+        'LA': 'Louisiana',
+    };
+    return stateNames[stateCode] || stateCode;
+};
+
+const getCertificationIcon = (cert: string) => {
+    if (cert.toLowerCase().includes('licensed')) return FileCheck;
+    if (cert.toLowerCase().includes('insured') || cert.toLowerCase().includes('bonded')) return Shield;
+    if (cert.toLowerCase().includes('epa') || cert.toLowerCase().includes('certified')) return Award;
+    if (cert.toLowerCase().includes('osha') || cert.toLowerCase().includes('safety')) return Users;
+    if (cert.toLowerCase().includes('background')) return UserCheck;
+    return Shield;
 };
 
 interface AboutSectionProps {
     about: AboutSectionType;
     businessInfo: BusinessInfo;
+    serviceAreas: ServiceAreas;
+    contact: ContactInfo;
 }
 
-export function AboutSection({ about, businessInfo }: AboutSectionProps) {
+export function AboutSection({ about, businessInfo, serviceAreas, contact }: AboutSectionProps) {
     // Split story into paragraphs
     const storyParagraphs = about.story.split('\n\n');
 
@@ -85,7 +106,7 @@ export function AboutSection({ about, businessInfo }: AboutSectionProps) {
                             <div className="relative rounded-2xl overflow-hidden shadow-card">
                                 <Image
                                     src="/images/team.jpg"
-                                    alt="Joshua Tree Plumbing Team"
+                                    alt={`${businessInfo.name} Team`}
                                     width={600}
                                     height={400}
                                     className="w-full h-auto object-cover"
@@ -100,7 +121,7 @@ export function AboutSection({ about, businessInfo }: AboutSectionProps) {
                                                 {about.team.size}
                                             </h3>
                                             <p className="text-white/80 text-sm">
-                                                Serving Tampa Bay
+                                                Serving {serviceAreas.mainArea}
                                             </p>
                                         </div>
                                     </div>
@@ -114,7 +135,7 @@ export function AboutSection({ about, businessInfo }: AboutSectionProps) {
                                 </h3>
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                     {about.certifications.map((cert, index) => {
-                                        const Icon = certificationIcons[cert] || Shield;
+                                        const Icon = getCertificationIcon(cert);
                                         return (
                                             <div
                                                 key={index}
@@ -140,7 +161,7 @@ export function AboutSection({ about, businessInfo }: AboutSectionProps) {
                             <div className="text-center p-6 bg-neutral-50 rounded-xl border-2 border-dashed border-neutral-200">
                                 <Shield size={32} className="text-primary-900 mx-auto mb-2" />
                                 <p className="text-sm text-neutral-600">
-                                    State of Florida Licensed
+                                    State of {getStateName(contact.address.state)} Licensed
                                 </p>
                                 <p className="font-heading font-bold text-2xl text-primary-900">
                                     #{businessInfo.license}
