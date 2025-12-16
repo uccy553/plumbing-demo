@@ -55,6 +55,7 @@ export function ServicePageClient({ data, service }: ServicePageClientProps) {
                 contact={data.contact}
                 services={data.services}
                 emergencyBanner={data.emergencyBanner}
+                businessInfo={data.businessInfo}
             />
 
             <main>

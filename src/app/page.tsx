@@ -26,6 +26,7 @@ export default async function HomePage() {
         contact={data.contact}
         services={data.services}
         emergencyBanner={data.emergencyBanner}
+        businessInfo={data.businessInfo}
       />
 
       <main>

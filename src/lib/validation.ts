@@ -31,6 +31,8 @@ export const SocialLinksSchema = z.object({
 // Business Info Schema
 export const BusinessInfoSchema = z.object({
     name: z.string(),
+    shortNameLine1: z.string(),
+    shortNameLine2: z.string(),
     tagline: z.string(),
     description: z.string(),
     established: z.string(),

@@ -8,15 +8,16 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/Button';
 import { MobileMenu } from './MobileMenu';
-import type { ContactInfo, Service, EmergencyBanner } from '@/types';
+import type { ContactInfo, Service, EmergencyBanner, BusinessInfo } from '@/types';
 
 interface HeaderProps {
     contact: ContactInfo;
     services: Service[];
     emergencyBanner: EmergencyBanner;
+    businessInfo: BusinessInfo;
 }
 
-export function Header({ contact, services, emergencyBanner }: HeaderProps) {
+export function Header({ contact, services, emergencyBanner, businessInfo }: HeaderProps) {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [isServicesOpen, setIsServicesOpen] = useState(false);
@@ -73,7 +74,7 @@ export function Header({ contact, services, emergencyBanner }: HeaderProps) {
                         <Link href="/" className="flex items-center gap-3">
                             <Image
                                 src="/plumbing-logo.svg"
-                                alt="Joshua Tree Plumbing"
+                                alt={businessInfo.name}
                                 width={48}
                                 height={48}
                                 className="w-12 h-12"
@@ -81,10 +82,10 @@ export function Header({ contact, services, emergencyBanner }: HeaderProps) {
                             />
                             <div className="hidden sm:block">
                                 <span className="font-heading font-bold text-lg text-primary-900">
-                                    Joshua Tree
+                                    {businessInfo.shortNameLine1}
                                 </span>
                                 <span className="block text-xs text-neutral-500 -mt-1">
-                                    Plumbing
+                                    {businessInfo.shortNameLine2}
                                 </span>
                             </div>
                         </Link>

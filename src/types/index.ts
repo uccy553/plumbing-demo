@@ -1,6 +1,8 @@
 // Business Information
 export interface BusinessInfo {
     name: string;
+    shortNameLine1: string;
+    shortNameLine2: string;
     tagline: string;
     description: string;
     established: string;

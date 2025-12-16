@@ -1,22 +1,24 @@
 {
     "businessInfo": {
-        "name": "Joshua Tree Plumbing",
-        "tagline": "Tampa's Most Trusted Plumbing Experts",
-        "description": "Professional plumbing services for residential and commercial properties throughout Tampa Bay. Licensed, insured, and committed to excellence.",
-        "established": "2020",
-        "license": "CFC1234567",
+        "name": "Mobley Plumbing and Septic, LLC",
+        "shortNameLine1": "Mobley",
+        "shortNameLine2": "Plumbing & Septic",
+        "tagline": "Appling's Trusted Plumbing & Septic Experts",
+        "description": "Professional plumbing and septic services for residential and commercial properties throughout Appling and surrounding areas. Licensed, insured, and committed to excellence.",
+        "established": "2015",
+        "license": "GA1234567",
         "insured": true,
         "emergency24_7": true
     },
     "contact": {
-        "phone": "(813) 455-6022",
-        "phoneRaw": "18134556022",
-        "email": "joshwille81@gmail.com",
+        "phone": "(706) 699-5534",
+        "phoneRaw": "17066995534",
+        "email": "mobleyplumbingandsepticllc@gmail.com",
         "address": {
-            "street": "5828 Village Center Dr",
-            "city": "Tampa",
-            "state": "FL",
-            "zip": "33617",
+            "street": "Appling, GA",
+            "city": "Appling",
+            "state": "GA",
+            "zip": "30802",
             "country": "United States"
         },
         "hours": {
@@ -30,17 +32,17 @@
             "emergency": "24/7 Available"
         },
         "social": {
-            "facebook": "https://web.facebook.com/p/Joshua-Tree-Plumbing-100054227360491/",
+            "facebook": "https://web.facebook.com/p/Mobley-Plumbing-and-Septic-LLC-100083546829272/?_rdc=1&_rdr#",
             "instagram": "",
             "linkedin": ""
         }
     },
     "hero": {
-        "headline": "Tampa's Most Trusted Plumbing Experts",
+        "headline": "Appling's Trusted Plumbing & Septic Experts",
         "subheadline": "Licensed Professionals • Upfront Pricing • Same-Day Service Available",
         "ctaPrimary": "Schedule Service",
-        "ctaSecondary": "Call (813) 455-6022",
-        "backgroundImage": "/images/hero-tampa-plumbing.jpg",
+        "ctaSecondary": "Call (706) 699-5534",
+        "backgroundImage": "/images/hero-plumbing-septic.jpg",
         "badges": [
             {
                 "text": "Licensed & Insured",
@@ -61,8 +63,8 @@
         ]
     },
     "emergencyBanner": {
-        "text": "24/7 Emergency Plumbing Services Available",
-        "phone": "(813) 455-6022",
+        "text": "24/7 Emergency Plumbing & Septic Services Available",
+        "phone": "(706) 699-5534",
         "backgroundColor": "#D32F2F"
     },
     "services": [
@@ -109,18 +111,18 @@
             "image": "/images/water-heater.jpg"
         },
         {
-            "id": "leak-detection",
-            "name": "Leak Detection & Repair",
-            "icon": "droplet-search",
-            "shortDescription": "Advanced leak detection technology to find and fix hidden water leaks.",
-            "fullDescription": "Hidden leaks can cause serious damage and waste water. Our advanced leak detection equipment pinpoints even the smallest leaks behind walls, under slabs, and in hard-to-reach areas. We'll fix it right and prevent costly damage.",
+            "id": "septic-services",
+            "name": "Septic System Services",
+            "icon": "pipe",
+            "shortDescription": "Complete septic system installation, repair, pumping, and maintenance.",
+            "fullDescription": "As septic system specialists, we provide comprehensive services including septic tank pumping, drain field repair, system installation, and regular maintenance. We'll keep your septic system running smoothly and prevent costly backups.",
             "features": [
-                "Non-invasive detection methods",
-                "Electronic leak detection",
-                "Thermal imaging available",
-                "Complete repair service"
+                "Septic tank pumping",
+                "Drain field repair",
+                "System installation",
+                "Routine maintenance"
             ],
-            "image": "/images/emergency-plumbing.jpg"
+            "image": "/images/septic-services.jpg"
         },
         {
             "id": "sewer-line",
@@ -135,6 +137,20 @@
                 "Root barrier installation"
             ],
             "image": "/images/sewer-line.jpg"
+        },
+        {
+            "id": "leak-detection",
+            "name": "Leak Detection & Repair",
+            "icon": "droplet-search",
+            "shortDescription": "Advanced leak detection technology to find and fix hidden water leaks.",
+            "fullDescription": "Hidden leaks can cause serious damage and waste water. Our advanced leak detection equipment pinpoints even the smallest leaks behind walls, under slabs, and in hard-to-reach areas. We'll fix it right and prevent costly damage.",
+            "features": [
+                "Non-invasive detection methods",
+                "Electronic leak detection",
+                "Thermal imaging available",
+                "Complete repair service"
+            ],
+            "image": "/images/leak-detection.jpg"
         },
         {
             "id": "bathroom-kitchen",
@@ -163,20 +179,6 @@
                 "Large-scale projects"
             ],
             "image": "/images/commercial-plumbing.jpg"
-        },
-        {
-            "id": "maintenance",
-            "name": "Preventive Maintenance",
-            "icon": "checklist",
-            "shortDescription": "Regular maintenance plans to prevent plumbing problems before they start.",
-            "fullDescription": "An ounce of prevention is worth a pound of cure. Our maintenance plans include regular inspections, minor repairs, and preventive measures that keep your plumbing system running smoothly and help you avoid costly emergency repairs.",
-            "features": [
-                "Annual inspection plans",
-                "Priority scheduling",
-                "Discounted repair rates",
-                "Detailed reporting"
-            ],
-            "image": "/images/maintenance.jpg"
         }
     ],
     "whyChooseUs": [
@@ -199,169 +201,159 @@
             "stat": "Same Day"
         },
         {
-            "title": "Lifetime Warranty",
-            "description": "We stand behind our work with comprehensive warranties on all labor.",
+            "title": "Septic Specialists",
+            "description": "Expert knowledge in both plumbing and septic systems for complete service.",
             "icon": "award",
-            "stat": "Lifetime"
+            "stat": "Experts"
         },
         {
             "title": "Clean Technicians",
-            "description": "Respectful, uniformed professionals who treat your home like their own.",
+            "description": "Respectful, uniformed professionals who treat your property like their own.",
             "icon": "user-check",
             "stat": "5-Star"
         },
         {
             "title": "Local Experts",
-            "description": "Tampa Bay natives who know the area's unique plumbing challenges.",
+            "description": "Appling natives who know the area's unique plumbing and septic challenges.",
             "icon": "map-pin",
             "stat": "Local"
         }
     ],
     "serviceAreas": {
-        "mainArea": "Tampa Bay, FL",
-        "description": "Proudly serving Tampa and the surrounding communities",
+        "mainArea": "Appling, GA & Surrounding Areas",
+        "description": "Proudly serving Appling and the surrounding communities",
         "cities": [
-            "Tampa",
-            "Brandon",
-            "Riverview",
-            "Carrollwood",
-            "Temple Terrace",
-            "Town 'n' Country",
-            "Egypt Lake-Leto",
-            "Lutz",
-            "Wesley Chapel",
-            "Plant City",
-            "Valrico",
-            "Seffner",
-            "Mango",
-            "Bloomingdale"
+            "Appling",
+            "Evans",
+            "Martinez",
+            "Grovetown",
+            "Harlem",
+            "Thomson",
+            "Augusta",
+            "Harrison",
+            "Dearing",
+            "Wrens",
+            "Gibson",
+            "Keysville",
+            "Waynesboro"
         ],
         "zipCodes": [
-            "33601",
-            "33602",
-            "33603",
-            "33604",
-            "33605",
-            "33606",
-            "33607",
-            "33609",
-            "33610",
-            "33611",
-            "33612",
-            "33613",
-            "33614",
-            "33615",
-            "33616",
-            "33617",
-            "33618",
-            "33619",
-            "33620",
-            "33621",
-            "33624",
-            "33625",
-            "33626",
-            "33629",
-            "33634",
-            "33635",
-            "33637"
+            "30802",
+            "30809",
+            "30813",
+            "30814",
+            "30815",
+            "30816",
+            "30817",
+            "30824",
+            "30828",
+            "30830",
+            "30833",
+            "30889",
+            "30901",
+            "30904",
+            "30905",
+            "30906",
+            "30907",
+            "30909"
         ]
     },
     "testimonials": [
         {
             "id": 1,
-            "name": "Sarah Mitchell",
-            "location": "Brandon, FL",
+            "name": "Sarah Johnson",
+            "location": "Evans, GA",
             "rating": 5,
             "date": "2024-11-15",
-            "text": "Joshua Tree Plumbing saved us during a pipe burst emergency at 2 AM. They arrived within 45 minutes and had everything fixed by morning. Professional, courteous, and fairly priced. Highly recommend!",
-            "service": "Emergency Repair",
-            "avatar": "SM"
+            "text": "Mobley Plumbing saved us during a septic emergency on a weekend. They arrived quickly and had everything fixed professionally. Fair pricing and excellent service!",
+            "service": "Septic Emergency",
+            "avatar": "SJ"
         },
         {
             "id": 2,
-            "name": "Michael Rodriguez",
-            "location": "Tampa, FL",
+            "name": "Michael Davis",
+            "location": "Martinez, GA",
             "rating": 5,
             "date": "2024-11-02",
-            "text": "Had them install a new tankless water heater. The technician explained everything clearly, the price was transparent, and the installation was flawless. Three months later and we're loving the endless hot water!",
-            "service": "Water Heater Installation",
-            "avatar": "MR"
+            "text": "Had them install a new water heater and service our septic system. The technician was knowledgeable, professional, and the prices were transparent. Highly recommend!",
+            "service": "Water Heater & Septic",
+            "avatar": "MD"
         },
         {
             "id": 3,
-            "name": "Jennifer Park",
-            "location": "Carrollwood, FL",
+            "name": "Jennifer Wilson",
+            "location": "Grovetown, GA",
             "rating": 5,
             "date": "2024-10-28",
-            "text": "We've used Joshua Tree for several projects now - from simple repairs to a complete bathroom replumb. They're always on time, clean, and do excellent work. They're our go-to plumbers now.",
-            "service": "Bathroom Plumbing",
-            "avatar": "JP"
+            "text": "We've used Mobley for several plumbing issues and septic maintenance. Always prompt, professional, and fair priced. Our go-to plumbing company now.",
+            "service": "Plumbing Repairs",
+            "avatar": "JW"
         },
         {
             "id": 4,
             "name": "David Thompson",
-            "location": "Temple Terrace, FL",
+            "location": "Harlem, GA",
             "rating": 5,
             "date": "2024-10-15",
-            "text": "Called about a persistent drain issue that other plumbers couldn't fix. They used a camera to find the problem and hydro-jetted the line. Problem solved! Great diagnostic work and fair pricing.",
+            "text": "Called about a persistent drain issue. They used a camera to find the problem and fixed it right the first time. Great diagnostic work and fair pricing.",
             "service": "Drain Cleaning",
             "avatar": "DT"
         },
         {
             "id": 5,
-            "name": "Lisa Nguyen",
-            "location": "Riverview, FL",
+            "name": "Lisa Miller",
+            "location": "Thomson, GA",
             "rating": 5,
             "date": "2024-09-30",
-            "text": "Very impressed with their professionalism. The plumber wore shoe covers, explained everything he was doing, and left the work area cleaner than he found it. Quality work and quality people.",
+            "text": "Very impressed with their professionalism. The plumber wore shoe covers, explained everything clearly, and left everything clean. Quality work!",
             "service": "Leak Repair",
-            "avatar": "LN"
+            "avatar": "LM"
         },
         {
             "id": 6,
-            "name": "Robert Chen",
-            "location": "Wesley Chapel, FL",
+            "name": "Robert Clark",
+            "location": "Augusta, GA",
             "rating": 5,
             "date": "2024-09-18",
-            "text": "We needed sewer line work and were dreading the disruption. They used trenchless technology and completed everything in one day with minimal mess. Incredible service and technology!",
-            "service": "Sewer Line Repair",
+            "text": "We needed septic system work and were concerned about the process. They were professional, explained everything, and completed the work efficiently. Excellent service!",
+            "service": "Septic System",
             "avatar": "RC"
         }
     ],
     "about": {
-        "headline": "Your Trusted Tampa Bay Plumbing Partner",
-        "story": "Joshua Tree Plumbing was founded with a simple mission: to provide Tampa Bay homeowners and businesses with honest, professional plumbing services they can trust. As a locally owned and operated company, we understand the unique plumbing challenges that Florida properties face, from hard water issues to aging infrastructure.\n\nOur team of licensed, experienced plumbers treats every job with the same care and attention we'd want for our own homes. We believe in doing the job right the first time, using quality materials, and standing behind our work with solid warranties.\n\nWhat sets us apart is our commitment to transparency. We provide upfront pricing, explain your options clearly, and never pressure you into unnecessary services. When you call Joshua Tree Plumbing, you're getting straight answers and skilled craftsmanship.",
-        "mission": "To deliver exceptional plumbing services with integrity, professionalism, and a commitment to customer satisfaction.",
+        "headline": "Your Trusted Appling Plumbing & Septic Partner",
+        "story": "Mobley Plumbing and Septic, LLC was founded with a simple mission: to provide Appling area homeowners and businesses with honest, professional plumbing and septic services they can trust. As a locally owned and operated company, we understand the unique plumbing challenges that Georgia properties face, from septic system maintenance to aging plumbing infrastructure.\n\nOur team of licensed, experienced professionals treats every job with the same care and attention we'd want for our own homes. We believe in doing the job right the first time, using quality materials, and standing behind our work with solid warranties.\n\nWhat sets us apart is our dual expertise in both plumbing and septic systems, combined with our commitment to transparency. We provide upfront pricing, explain your options clearly, and never pressure you into unnecessary services. When you call Mobley Plumbing and Septic, you're getting straight answers and skilled craftsmanship.",
+        "mission": "To deliver exceptional plumbing and septic services with integrity, professionalism, and a commitment to customer satisfaction.",
         "values": [
             "Honesty and transparency in all interactions",
             "Quality workmanship on every job",
-            "Respect for your home and time",
+            "Respect for your property and time",
             "Continuous training and improvement",
             "Community involvement and support"
         ],
         "certifications": [
-            "State of Florida Licensed Plumbing Contractor",
+            "State of Georgia Licensed Plumbing Contractor",
             "Fully Insured & Bonded",
-            "EPA Lead-Safe Certified",
+            "Septic System Certified",
             "OSHA Safety Trained",
             "Background Checked Technicians"
         ],
         "team": {
-            "description": "Our team consists of licensed master plumbers and experienced technicians who undergo regular training on the latest plumbing technologies and techniques. Every team member is background checked, drug tested, and committed to providing exceptional service.",
-            "size": "10+ Skilled Professionals"
+            "description": "Our team consists of licensed plumbers and septic system specialists who undergo regular training on the latest technologies and techniques. Every team member is background checked, drug tested, and committed to providing exceptional service.",
+            "size": "Skilled Professionals"
         }
     },
     "process": [
         {
             "step": 1,
             "title": "Contact Us",
-            "description": "Call us at (813) 455-6022 or book online. We'll discuss your plumbing needs and schedule a convenient time.",
+            "description": "Call us at (706) 699-5534 or book online. We'll discuss your plumbing or septic needs and schedule a convenient time.",
             "icon": "phone"
         },
         {
             "step": 2,
             "title": "We Arrive Promptly",
-            "description": "Our uniformed technician arrives on time in a fully-equipped service vehicle, ready to handle your plumbing issue.",
+            "description": "Our uniformed technician arrives on time in a fully-equipped service vehicle, ready to handle your plumbing or septic issue.",
             "icon": "truck"
         },
         {
@@ -412,34 +404,34 @@
             "active": true
         },
         {
-            "id": "maintenance",
-            "title": "Annual Maintenance Plan Special",
-            "description": "Save 20% on annual maintenance contracts",
-            "code": "MAINTAIN20",
-            "terms": "12-month contract required. Includes 2 annual inspections and priority scheduling.",
+            "id": "septic-maintenance",
+            "title": "Septic Maintenance Special",
+            "description": "Save 15% on septic tank pumping and inspection",
+            "code": "SEPTIC15",
+            "terms": "Regular service only. Cannot be combined with other offers.",
             "expiration": "2025-03-31",
             "active": true
         }
     ],
     "faq": [
         {
-            "question": "Do you offer 24/7 emergency plumbing services?",
-            "answer": "Yes! We provide 24/7 emergency plumbing services throughout Tampa Bay. Whether it's a burst pipe at 2 AM or a backed-up sewer on a holiday, we're here to help. Call (813) 455-6022 anytime for immediate assistance.",
+            "question": "Do you offer 24/7 emergency plumbing and septic services?",
+            "answer": "Yes! We provide 24/7 emergency plumbing and septic services throughout the Appling area. Whether it's a burst pipe at 2 AM or a septic backup on a holiday, we're here to help. Call (706) 699-5534 anytime for immediate assistance.",
             "category": "Emergency Services"
         },
         {
-            "question": "How quickly can you respond to an emergency?",
-            "answer": "For emergency situations, we typically arrive within 60-90 minutes depending on your location and current traffic conditions. We prioritize emergency calls and dispatch the nearest available technician to your location.",
-            "category": "Emergency Services"
+            "question": "How often should I have my septic tank pumped?",
+            "answer": "Most households should have their septic tank pumped every 3-5 years, depending on tank size, household size, and usage. We can assess your specific situation and recommend the optimal maintenance schedule for your system.",
+            "category": "Septic Services"
         },
         {
             "question": "Do you provide upfront pricing?",
-            "answer": "Absolutely. We believe in transparent pricing with no hidden fees. After diagnosing your plumbing issue, we'll provide a clear, detailed quote before starting any work. You'll know exactly what you're paying for, and we won't proceed without your approval.",
+            "answer": "Absolutely. We believe in transparent pricing with no hidden fees. After diagnosing your plumbing or septic issue, we'll provide a clear, detailed quote before starting any work. You'll know exactly what you're paying for, and we won't proceed without your approval.",
             "category": "Pricing"
         },
         {
             "question": "Are you licensed and insured?",
-            "answer": "Yes, Joshua Tree Plumbing is fully licensed by the State of Florida (License #CFC1234567), bonded, and insured. All our technicians are licensed professionals who undergo regular training and background checks.",
+            "answer": "Yes, Mobley Plumbing and Septic, LLC is fully licensed by the State of Georgia, bonded, and insured. All our technicians are licensed professionals who undergo regular training and background checks.",
             "category": "Credentials"
         },
         {
@@ -449,80 +441,80 @@
         },
         {
             "question": "Do you offer warranties on your work?",
-            "answer": "Yes! We stand behind our work with a comprehensive warranty. Labor is covered for the lifetime of your ownership of the property, and parts are covered according to manufacturer warranties. Specific warranty terms are provided with each service.",
+            "answer": "Yes! We stand behind our work with a comprehensive warranty. Labor is covered, and parts are covered according to manufacturer warranties. Specific warranty terms are provided with each service.",
             "category": "Warranties"
         },
         {
-            "question": "Can you help with kitchen and bathroom remodeling?",
-            "answer": "Yes, we handle all plumbing aspects of kitchen and bathroom remodels, including fixture installation, replumbing, gas line work, and drain modifications. We work seamlessly with general contractors and can also recommend trusted partners for other aspects of your renovation.",
-            "category": "Services"
+            "question": "What are signs that my septic system needs attention?",
+            "answer": "Common signs include slow drains, gurgling pipes, sewage backups, foul odors around the drain field, lush green grass over the drain field, and standing water in the yard. If you notice any of these signs, call us for an inspection.",
+            "category": "Septic Services"
         },
         {
             "question": "How do I know if I need to replace or repair my water heater?",
-            "answer": "Generally, if your water heater is over 10-12 years old, making unusual noises, leaking, or not providing consistent hot water, replacement is often more cost-effective than repair. Our technicians will assess your specific situation and provide honest recommendations based on your water heater's condition and your household needs.",
+            "answer": "Generally, if your water heater is over 10-12 years old, making unusual noises, leaking, or not providing consistent hot water, replacement is often more cost-effective than repair. Our technicians will assess your specific situation and provide honest recommendations.",
             "category": "Water Heaters"
         },
         {
-            "question": "What should I do if I have a burst pipe?",
-            "answer": "First, shut off the main water valve to your home immediately. Then call us at (813) 455-6022 for emergency service. If possible, open faucets to drain remaining water and move valuables away from the affected area. Our emergency team will arrive quickly to make repairs and minimize damage.",
+            "question": "What should I do if I have a septic backup?",
+            "answer": "First, stop using all water in your home immediately. Then call us at (706) 699-5534 for emergency service. Avoid flushing toilets, running faucets, or using appliances that drain water. Our emergency team will arrive quickly to address the issue.",
             "category": "Emergency Services"
         },
         {
             "question": "Do you service commercial properties?",
-            "answer": "Yes, we provide comprehensive plumbing services for commercial properties including offices, retail spaces, restaurants, and industrial facilities. We offer scheduled maintenance programs, after-hours service, and can handle projects of any size.",
+            "answer": "Yes, we provide comprehensive plumbing and septic services for commercial properties including offices, retail spaces, restaurants, and industrial facilities. We offer scheduled maintenance programs, after-hours service, and can handle projects of any size.",
             "category": "Services"
         },
         {
-            "question": "How often should I have my drains professionally cleaned?",
-            "answer": "For most homes, we recommend professional drain cleaning every 18-24 months as preventive maintenance. However, if you have large trees near your sewer line, older pipes, or frequent slow drains, annual cleaning may be beneficial. Commercial properties often benefit from quarterly maintenance.",
+            "question": "How can I maintain my septic system between pumpings?",
+            "answer": "Regular maintenance includes conserving water, avoiding flushing non-biodegradable items, not pouring grease down drains, and avoiding using excessive chemicals. We also recommend regular inspections to catch small issues before they become major problems.",
             "category": "Maintenance"
         },
         {
             "question": "What areas do you serve?",
-            "answer": "We serve Tampa and all surrounding communities including Brandon, Riverview, Carrollwood, Temple Terrace, Lutz, Wesley Chapel, Plant City, and more. If you're in the Tampa Bay area, give us a call and we'll let you know if we can help.",
+            "answer": "We serve Appling and all surrounding communities including Evans, Martinez, Grovetown, Harlem, Thomson, Augusta, and more. If you're in the CSRA area, give us a call and we'll let you know if we can help.",
             "category": "Service Area"
         },
         {
             "question": "Can you detect leaks behind walls or under slabs?",
-            "answer": "Yes, we use advanced leak detection equipment including electronic sensors and thermal imaging to locate hidden leaks behind walls, under slabs, and in other hard-to-reach areas. This non-invasive technology allows us to pinpoint leaks without unnecessary demolition.",
+            "answer": "Yes, we use advanced leak detection equipment including electronic sensors to locate hidden leaks behind walls, under slabs, and in other hard-to-reach areas. This technology allows us to pinpoint leaks without unnecessary demolition.",
             "category": "Leak Detection"
         },
         {
             "question": "Do you offer preventive maintenance plans?",
-            "answer": "Yes! Our preventive maintenance plans include regular inspections, minor repairs, priority scheduling, and discounted rates on services. These plans help catch problems early, extend the life of your plumbing system, and save you money on emergency repairs.",
+            "answer": "Yes! Our preventive maintenance plans include regular inspections, minor repairs, priority scheduling, and discounted rates on services. These plans help catch problems early, extend the life of your systems, and save you money on emergency repairs.",
             "category": "Maintenance"
         },
         {
-            "question": "What is trenchless sewer repair?",
-            "answer": "Trenchless sewer repair is a modern method that allows us to repair or replace your sewer line without extensive excavation of your yard. Using specialized equipment, we can often complete the work through small access points, minimizing disruption to your landscaping and property.",
-            "category": "Sewer Services"
+            "question": "What should I avoid putting in my septic system?",
+            "answer": "Avoid flushing feminine products, diapers, wipes (even 'flushable' ones), paper towels, cooking grease, coffee grounds, chemicals, medications, and excessive bleach. These can damage your system and lead to costly repairs.",
+            "category": "Septic Services"
         }
     ],
     "seo": {
         "meta": {
-            "title": "Joshua Tree Plumbing | Tampa's Trusted Plumber | 24/7 Emergency Service",
-            "description": "Licensed Tampa plumber offering 24/7 emergency service, drain cleaning, water heater installation & more. Upfront pricing, same-day service. Call (813) 455-6022",
-            "keywords": "Tampa plumber, emergency plumbing Tampa, drain cleaning Tampa, water heater installation Tampa, plumbing services Tampa FL, licensed plumber Tampa, 24/7 plumber Tampa"
+            "title": "Mobley Plumbing and Septic, LLC | Appling's Trusted Plumber & Septic Services | 24/7 Emergency",
+            "description": "Licensed Appling plumber and septic specialist offering 24/7 emergency service, drain cleaning, water heater installation, septic pumping & more. Upfront pricing, same-day service. Call (706) 699-5534",
+            "keywords": "Appling plumber, septic services Appling, emergency plumbing Appling, drain cleaning Appling, water heater installation Appling, plumbing services Appling GA, licensed plumber Appling, septic tank pumping Appling"
         },
         "schema": {
             "@context": "https://schema.org",
             "@type": "Plumber",
-            "name": "Joshua Tree Plumbing",
-            "image": "https://joshuatreeplumbing.com/logo.png",
-            "telephone": "(813) 455-6022",
-            "email": "joshwille81@gmail.com",
+            "name": "Mobley Plumbing and Septic, LLC",
+            "image": "https://mobleyplumbingandseptic.com/logo.png",
+            "telephone": "(706) 699-5534",
+            "email": "mobleyplumbingandsepticllc@gmail.com",
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "5828 Village Center Dr",
-                "addressLocality": "Tampa",
-                "addressRegion": "FL",
-                "postalCode": "33617",
+                "streetAddress": "Appling, GA",
+                "addressLocality": "Appling",
+                "addressRegion": "GA",
+                "postalCode": "30802",
                 "addressCountry": "US"
             },
             "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": "28.0489",
-                "longitude": "-82.3527"
+                "latitude": "33.5454",
+                "longitude": "-82.3137"
             },
             "priceRange": "$$",
             "openingHoursSpecification": [
@@ -545,7 +537,7 @@
                     "closes": "17:00"
                 }
             ],
-            "areaServed": "Tampa Bay, FL"
+            "areaServed": "Appling, GA & Surrounding Areas"
         }
     },
     "callToActions": {
@@ -555,11 +547,11 @@
         },
         "secondary": {
             "text": "Call Now",
-            "action": "tel:18134556022"
+            "action": "tel:17066995534"
         },
         "emergency": {
             "text": "24/7 Emergency Service",
-            "action": "tel:18134556022"
+            "action": "tel:17066995534"
         }
     }
 }
