@@ -27,7 +27,7 @@ export function ServiceAreasMap({ serviceAreas, contact }: ServiceAreasMapProps)
                         <div className="relative aspect-square lg:aspect-[4/3] rounded-2xl overflow-hidden shadow-elevated">
                             {/* Google Maps Embed */}
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d426164.98729918245!2d-82.50599008254139!3d33.4385199248663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa34194c724742f37%3A0x85437c8ff41dff84!2sMobley%20Plumbing%20and%20Septic%2C%20LLC!5e0!3m2!1sen!2sng!4v1765836274024!5m2!1sen!2sng"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3471.985831795295!2d-98.51002332458512!3d29.516772175193488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c6132274d223f%3A0x969eec493888a331!2sOmega%20Plumbing%20%26%20Drain!5e0!3m2!1sen!2sng!4v1765913791946!5m2!1sen!2sng"
                                 className="absolute inset-0 w-full h-full border-0"
                                 allowFullScreen
                                 loading="lazy"

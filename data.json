@@ -1,24 +1,24 @@
 {
     "businessInfo": {
-        "name": "Mobley Plumbing and Septic, LLC",
-        "shortNameLine1": "Mobley",
-        "shortNameLine2": "Plumbing & Septic",
-        "tagline": "Appling's Trusted Plumbing & Septic Experts",
-        "description": "Professional plumbing and septic services for residential and commercial properties throughout Appling and surrounding areas. Licensed, insured, and committed to excellence.",
-        "established": "2015",
-        "license": "GA1234567",
+        "name": "Omega Plumbing & Drain",
+        "shortNameLine1": "Omega",
+        "shortNameLine2": "Plumbing & Drain",
+        "tagline": "San Antonio's Trusted Plumbing & Drain Experts",
+        "description": "Professional plumbing and drain services for residential and commercial properties throughout San Antonio and surrounding areas. Licensed, insured, and committed to excellence.",
+        "established": "2018",
+        "license": "TX1234567",
         "insured": true,
         "emergency24_7": true
     },
     "contact": {
-        "phone": "(706) 699-5534",
-        "phoneRaw": "17066995534",
-        "email": "mobleyplumbingandsepticllc@gmail.com",
+        "phone": "(210) 618-2887",
+        "phoneRaw": "12106182887",
+        "email": "Omegaplumbing37405@gmail.com",
         "address": {
-            "street": "Appling, GA",
-            "city": "Appling",
-            "state": "GA",
-            "zip": "30802",
+            "street": "6609 Blanco Rd Suite 140",
+            "city": "San Antonio",
+            "state": "TX",
+            "zip": "78216",
             "country": "United States"
         },
         "hours": {
@@ -32,16 +32,16 @@
             "emergency": "24/7 Available"
         },
         "social": {
-            "facebook": "https://web.facebook.com/p/Mobley-Plumbing-and-Septic-LLC-100083546829272/?_rdc=1&_rdr#",
+            "facebook": "https://web.facebook.com/p/Omega-Plumbing-and-Drain-Service-100047683213982/?_rdc=1&_rdr#",
             "instagram": "",
             "linkedin": ""
         }
     },
     "hero": {
-        "headline": "Appling's Trusted Plumbing & Septic Experts",
+        "headline": "San Antonio's Trusted Plumbing & Drain Experts",
         "subheadline": "Licensed Professionals • Upfront Pricing • Same-Day Service Available",
         "ctaPrimary": "Schedule Service",
-        "ctaSecondary": "Call (706) 699-5534",
+        "ctaSecondary": "Call (210) 618-2887",
         "backgroundImage": "/images/hero-plumbing-septic.jpg",
         "badges": [
             {
@@ -63,8 +63,8 @@
         ]
     },
     "emergencyBanner": {
-        "text": "24/7 Emergency Plumbing & Septic Services Available",
-        "phone": "(706) 699-5534",
+        "text": "24/7 Emergency Plumbing & Drain Services Available",
+        "phone": "(210) 618-2887",
         "backgroundColor": "#D32F2F"
     },
     "services": [
@@ -109,20 +109,6 @@
                 "Warranty on all installations"
             ],
             "image": "/images/water-heater.jpg"
-        },
-        {
-            "id": "septic-services",
-            "name": "Septic System Services",
-            "icon": "pipe",
-            "shortDescription": "Complete septic system installation, repair, pumping, and maintenance.",
-            "fullDescription": "As septic system specialists, we provide comprehensive services including septic tank pumping, drain field repair, system installation, and regular maintenance. We'll keep your septic system running smoothly and prevent costly backups.",
-            "features": [
-                "Septic tank pumping",
-                "Drain field repair",
-                "System installation",
-                "Routine maintenance"
-            ],
-            "image": "/images/septic-services.jpg"
         },
         {
             "id": "sewer-line",
@@ -179,6 +165,20 @@
                 "Large-scale projects"
             ],
             "image": "/images/commercial-plumbing.jpg"
+        },
+        {
+            "id": "maintenance",
+            "name": "Preventive Maintenance",
+            "icon": "checklist",
+            "shortDescription": "Regular maintenance plans to prevent plumbing problems before they start.",
+            "fullDescription": "An ounce of prevention is worth a pound of cure. Our maintenance plans include regular inspections, minor repairs, and preventive measures that keep your plumbing system running smoothly and help you avoid costly emergency repairs.",
+            "features": [
+                "Annual inspection plans",
+                "Priority scheduling",
+                "Discounted repair rates",
+                "Detailed reporting"
+            ],
+            "image": "/images/maintenance.jpg"
         }
     ],
     "whyChooseUs": [
@@ -201,8 +201,8 @@
             "stat": "Same Day"
         },
         {
-            "title": "Septic Specialists",
-            "description": "Expert knowledge in both plumbing and septic systems for complete service.",
+            "title": "Drain Specialists",
+            "description": "Expert knowledge in both plumbing and drain systems for complete service.",
             "icon": "award",
             "stat": "Experts"
         },
@@ -214,116 +214,147 @@
         },
         {
             "title": "Local Experts",
-            "description": "Appling natives who know the area's unique plumbing and septic challenges.",
+            "description": "San Antonio natives who know the area's unique plumbing and drain challenges.",
             "icon": "map-pin",
             "stat": "Local"
         }
     ],
     "serviceAreas": {
-        "mainArea": "Appling, GA & Surrounding Areas",
-        "description": "Proudly serving Appling and the surrounding communities",
+        "mainArea": "San Antonio, TX & Surrounding Areas",
+        "description": "Proudly serving San Antonio and the surrounding communities",
         "cities": [
-            "Appling",
-            "Evans",
-            "Martinez",
-            "Grovetown",
-            "Harlem",
-            "Thomson",
-            "Augusta",
-            "Harrison",
-            "Dearing",
-            "Wrens",
-            "Gibson",
-            "Keysville",
-            "Waynesboro"
+            "San Antonio",
+            "Alamo Heights",
+            "Olmos Park",
+            "Terrell Hills",
+            "Windcrest",
+            "Hollywood Park",
+            "Castle Hills",
+            "Helotes",
+            "Leon Valley",
+            "Schertz",
+            "Cibolo",
+            "Universal City",
+            "Converse",
+            "Live Oak",
+            "Kirby"
         ],
         "zipCodes": [
-            "30802",
-            "30809",
-            "30813",
-            "30814",
-            "30815",
-            "30816",
-            "30817",
-            "30824",
-            "30828",
-            "30830",
-            "30833",
-            "30889",
-            "30901",
-            "30904",
-            "30905",
-            "30906",
-            "30907",
-            "30909"
+            "78201",
+            "78205",
+            "78209",
+            "78212",
+            "78213",
+            "78215",
+            "78216",
+            "78217",
+            "78218",
+            "78219",
+            "78220",
+            "78221",
+            "78222",
+            "78223",
+            "78224",
+            "78227",
+            "78228",
+            "78229",
+            "78230",
+            "78231",
+            "78232",
+            "78233",
+            "78234",
+            "78235",
+            "78236",
+            "78237",
+            "78238",
+            "78239",
+            "78240",
+            "78245",
+            "78247",
+            "78248",
+            "78249",
+            "78250",
+            "78251",
+            "78252",
+            "78253",
+            "78254",
+            "78255",
+            "78256",
+            "78257",
+            "78258",
+            "78259",
+            "78260",
+            "78261",
+            "78263",
+            "78264"
         ]
     },
     "testimonials": [
         {
             "id": 1,
-            "name": "Sarah Johnson",
-            "location": "Evans, GA",
+            "name": "Sarah Martinez",
+            "location": "Alamo Heights, TX",
             "rating": 5,
             "date": "2024-11-15",
-            "text": "Mobley Plumbing saved us during a septic emergency on a weekend. They arrived quickly and had everything fixed professionally. Fair pricing and excellent service!",
-            "service": "Septic Emergency",
-            "avatar": "SJ"
+            "text": "Omega Plumbing saved us during a pipe burst emergency on a weekend. They arrived quickly and had everything fixed professionally. Fair pricing and excellent service!",
+            "service": "Emergency Plumbing",
+            "avatar": "SM"
         },
         {
             "id": 2,
-            "name": "Michael Davis",
-            "location": "Martinez, GA",
+            "name": "Michael Rodriguez",
+            "location": "Olmos Park, TX",
             "rating": 5,
             "date": "2024-11-02",
-            "text": "Had them install a new water heater and service our septic system. The technician was knowledgeable, professional, and the prices were transparent. Highly recommend!",
-            "service": "Water Heater & Septic",
-            "avatar": "MD"
+            "text": "Had them install a new tankless water heater and clear our main drain line. The technician was knowledgeable, professional, and the prices were transparent. Highly recommend!",
+            "service": "Water Heater & Drain",
+            "avatar": "MR"
         },
         {
             "id": 3,
-            "name": "Jennifer Wilson",
-            "location": "Grovetown, GA",
+            "name": "Jennifer Garcia",
+            "location": "Terrell Hills, TX",
             "rating": 5,
             "date": "2024-10-28",
-            "text": "We've used Mobley for several plumbing issues and septic maintenance. Always prompt, professional, and fair priced. Our go-to plumbing company now.",
+            "text": "We've used Omega for several plumbing issues and drain maintenance. Always prompt, professional, and fair priced. Our go-to plumbing company now.",
             "service": "Plumbing Repairs",
-            "avatar": "JW"
+            "avatar": "JG"
         },
         {
             "id": 4,
-            "name": "David Thompson",
-            "location": "Harlem, GA",
+            "name": "David Hernandez",
+            "location": "Windcrest, TX",
             "rating": 5,
             "date": "2024-10-15",
-            "text": "Called about a persistent drain issue. They used a camera to find the problem and fixed it right the first time. Great diagnostic work and fair pricing.",
+            "text": "Called about a persistent drain issue. They used a camera to find the problem and hydro-jetted the line. Problem solved! Great diagnostic work and fair pricing.",
             "service": "Drain Cleaning",
-            "avatar": "DT"
+            "avatar": "DH"
         },
         {
             "id": 5,
-            "name": "Lisa Miller",
-            "location": "Thomson, GA",
+            "name": "Lisa Gonzales",
+            "location": "Castle Hills, TX",
             "rating": 5,
             "date": "2024-09-30",
             "text": "Very impressed with their professionalism. The plumber wore shoe covers, explained everything clearly, and left everything clean. Quality work!",
             "service": "Leak Repair",
-            "avatar": "LM"
+            "avatar": "LG"
         },
         {
             "id": 6,
-            "name": "Robert Clark",
-            "location": "Augusta, GA",
+            "name": "Robert Lopez",
+            "location": "Helotes, TX",
             "rating": 5,
             "date": "2024-09-18",
-            "text": "We needed septic system work and were concerned about the process. They were professional, explained everything, and completed the work efficiently. Excellent service!",
-            "service": "Septic System",
-            "avatar": "RC"
+            "text": "We needed sewer line work and were dreading the disruption. They used trenchless technology and completed everything efficiently. Incredible service!",
+            "service": "Sewer Line",
+            "avatar": "RL"
         }
     ],
     "about": {
-        "headline": "Your Trusted Appling Plumbing & Septic Partner",
-        "story": "Mobley Plumbing and Septic, LLC was founded with a simple mission: to provide Appling area homeowners and businesses with honest, professional plumbing and septic services they can trust. As a locally owned and operated company, we understand the unique plumbing challenges that Georgia properties face, from septic system maintenance to aging plumbing infrastructure.\n\nOur team of licensed, experienced professionals treats every job with the same care and attention we'd want for our own homes. We believe in doing the job right the first time, using quality materials, and standing behind our work with solid warranties.\n\nWhat sets us apart is our dual expertise in both plumbing and septic systems, combined with our commitment to transparency. We provide upfront pricing, explain your options clearly, and never pressure you into unnecessary services. When you call Mobley Plumbing and Septic, you're getting straight answers and skilled craftsmanship.",
-        "mission": "To deliver exceptional plumbing and septic services with integrity, professionalism, and a commitment to customer satisfaction.",
+        "headline": "Your Trusted San Antonio Plumbing & Drain Partner",
+        "story": "Omega Plumbing & Drain was founded with a simple mission: to provide San Antonio area homeowners and businesses with honest, professional plumbing and drain services they can trust. As a locally owned and operated company, we understand the unique plumbing challenges that Texas properties face, from hard water issues to aging infrastructure.\n\nOur team of licensed, experienced professionals treats every job with the same care and attention we'd want for our own homes. We believe in doing the job right the first time, using quality materials, and standing behind our work with solid warranties.\n\nWhat sets us apart is our expertise in drain systems, combined with our commitment to transparency. We provide upfront pricing, explain your options clearly, and never pressure you into unnecessary services. When you call Omega Plumbing & Drain, you're getting straight answers and skilled craftsmanship.",
+        "mission": "To deliver exceptional plumbing and drain services with integrity, professionalism, and a commitment to customer satisfaction.",
         "values": [
             "Honesty and transparency in all interactions",
             "Quality workmanship on every job",
@@ -332,14 +363,14 @@
             "Community involvement and support"
         ],
         "certifications": [
-            "State of Georgia Licensed Plumbing Contractor",
+            "State of Texas Licensed Plumbing Contractor",
             "Fully Insured & Bonded",
-            "Septic System Certified",
+            "EPA Lead-Safe Certified",
             "OSHA Safety Trained",
             "Background Checked Technicians"
         ],
         "team": {
-            "description": "Our team consists of licensed plumbers and septic system specialists who undergo regular training on the latest technologies and techniques. Every team member is background checked, drug tested, and committed to providing exceptional service.",
+            "description": "Our team consists of licensed plumbers and drain specialists who undergo regular training on the latest technologies and techniques. Every team member is background checked, drug tested, and committed to providing exceptional service.",
             "size": "Skilled Professionals"
         }
     },
@@ -347,13 +378,13 @@
         {
             "step": 1,
             "title": "Contact Us",
-            "description": "Call us at (706) 699-5534 or book online. We'll discuss your plumbing or septic needs and schedule a convenient time.",
+            "description": "Call us at (210) 618-2887 or book online. We'll discuss your plumbing or drain needs and schedule a convenient time.",
             "icon": "phone"
         },
         {
             "step": 2,
             "title": "We Arrive Promptly",
-            "description": "Our uniformed technician arrives on time in a fully-equipped service vehicle, ready to handle your plumbing or septic issue.",
+            "description": "Our uniformed technician arrives on time in a fully-equipped service vehicle, ready to handle your plumbing or drain issue.",
             "icon": "truck"
         },
         {
@@ -404,10 +435,10 @@
             "active": true
         },
         {
-            "id": "septic-maintenance",
-            "title": "Septic Maintenance Special",
-            "description": "Save 15% on septic tank pumping and inspection",
-            "code": "SEPTIC15",
+            "id": "drain-maintenance",
+            "title": "Drain Maintenance Special",
+            "description": "Save 15% on drain cleaning and inspection",
+            "code": "DRAIN15",
             "terms": "Regular service only. Cannot be combined with other offers.",
             "expiration": "2025-03-31",
             "active": true
@@ -415,23 +446,23 @@
     ],
     "faq": [
         {
-            "question": "Do you offer 24/7 emergency plumbing and septic services?",
-            "answer": "Yes! We provide 24/7 emergency plumbing and septic services throughout the Appling area. Whether it's a burst pipe at 2 AM or a septic backup on a holiday, we're here to help. Call (706) 699-5534 anytime for immediate assistance.",
+            "question": "Do you offer 24/7 emergency plumbing and drain services?",
+            "answer": "Yes! We provide 24/7 emergency plumbing and drain services throughout the San Antonio area. Whether it's a burst pipe at 2 AM or a major drain backup on a holiday, we're here to help. Call (210) 618-2887 anytime for immediate assistance.",
             "category": "Emergency Services"
         },
         {
-            "question": "How often should I have my septic tank pumped?",
-            "answer": "Most households should have their septic tank pumped every 3-5 years, depending on tank size, household size, and usage. We can assess your specific situation and recommend the optimal maintenance schedule for your system.",
-            "category": "Septic Services"
+            "question": "How often should I have my drains professionally cleaned?",
+            "answer": "Most homes benefit from professional drain cleaning every 18-24 months as preventive maintenance. However, if you have older pipes, large trees near your sewer line, or frequent slow drains, annual cleaning may be beneficial. Commercial properties often need quarterly maintenance.",
+            "category": "Drain Services"
         },
         {
             "question": "Do you provide upfront pricing?",
-            "answer": "Absolutely. We believe in transparent pricing with no hidden fees. After diagnosing your plumbing or septic issue, we'll provide a clear, detailed quote before starting any work. You'll know exactly what you're paying for, and we won't proceed without your approval.",
+            "answer": "Absolutely. We believe in transparent pricing with no hidden fees. After diagnosing your plumbing or drain issue, we'll provide a clear, detailed quote before starting any work. You'll know exactly what you're paying for, and we won't proceed without your approval.",
             "category": "Pricing"
         },
         {
             "question": "Are you licensed and insured?",
-            "answer": "Yes, Mobley Plumbing and Septic, LLC is fully licensed by the State of Georgia, bonded, and insured. All our technicians are licensed professionals who undergo regular training and background checks.",
+            "answer": "Yes, Omega Plumbing & Drain is fully licensed by the State of Texas, bonded, and insured. All our technicians are licensed professionals who undergo regular training and background checks.",
             "category": "Credentials"
         },
         {
@@ -445,9 +476,9 @@
             "category": "Warranties"
         },
         {
-            "question": "What are signs that my septic system needs attention?",
-            "answer": "Common signs include slow drains, gurgling pipes, sewage backups, foul odors around the drain field, lush green grass over the drain field, and standing water in the yard. If you notice any of these signs, call us for an inspection.",
-            "category": "Septic Services"
+            "question": "What are signs that I need professional drain cleaning?",
+            "answer": "Common signs include slow-draining sinks, gurgling sounds from drains, foul odors, water backing up in multiple fixtures, and repeated clogs. If you notice any of these signs, it's time to call for professional drain cleaning.",
+            "category": "Drain Services"
         },
         {
             "question": "How do I know if I need to replace or repair my water heater?",
@@ -455,28 +486,28 @@
             "category": "Water Heaters"
         },
         {
-            "question": "What should I do if I have a septic backup?",
-            "answer": "First, stop using all water in your home immediately. Then call us at (706) 699-5534 for emergency service. Avoid flushing toilets, running faucets, or using appliances that drain water. Our emergency team will arrive quickly to address the issue.",
+            "question": "What should I do if I have a major drain backup?",
+            "answer": "First, stop using all water in your home immediately. Then call us at (210) 618-2887 for emergency service. Avoid flushing toilets, running faucets, or using appliances that drain water. Our emergency team will arrive quickly to address the issue.",
             "category": "Emergency Services"
         },
         {
             "question": "Do you service commercial properties?",
-            "answer": "Yes, we provide comprehensive plumbing and septic services for commercial properties including offices, retail spaces, restaurants, and industrial facilities. We offer scheduled maintenance programs, after-hours service, and can handle projects of any size.",
+            "answer": "Yes, we provide comprehensive plumbing and drain services for commercial properties including offices, retail spaces, restaurants, and industrial facilities. We offer scheduled maintenance programs, after-hours service, and can handle projects of any size.",
             "category": "Services"
         },
         {
-            "question": "How can I maintain my septic system between pumpings?",
-            "answer": "Regular maintenance includes conserving water, avoiding flushing non-biodegradable items, not pouring grease down drains, and avoiding using excessive chemicals. We also recommend regular inspections to catch small issues before they become major problems.",
-            "category": "Maintenance"
+            "question": "What is hydro-jetting and when is it needed?",
+            "answer": "Hydro-jetting uses high-pressure water streams to thoroughly clean drain lines, removing grease, scale, and tree roots. It's recommended for severe clogs, recurring drain problems, and as preventive maintenance for commercial properties or homes with older plumbing.",
+            "category": "Drain Services"
         },
         {
             "question": "What areas do you serve?",
-            "answer": "We serve Appling and all surrounding communities including Evans, Martinez, Grovetown, Harlem, Thomson, Augusta, and more. If you're in the CSRA area, give us a call and we'll let you know if we can help.",
+            "answer": "We serve San Antonio and all surrounding communities including Alamo Heights, Olmos Park, Terrell Hills, Windcrest, Helotes, Leon Valley, and more. If you're in the San Antonio area, give us a call and we'll let you know if we can help.",
             "category": "Service Area"
         },
         {
             "question": "Can you detect leaks behind walls or under slabs?",
-            "answer": "Yes, we use advanced leak detection equipment including electronic sensors to locate hidden leaks behind walls, under slabs, and in other hard-to-reach areas. This technology allows us to pinpoint leaks without unnecessary demolition.",
+            "answer": "Yes, we use advanced leak detection equipment including electronic sensors and thermal imaging to locate hidden leaks behind walls, under slabs, and in other hard-to-reach areas. This technology allows us to pinpoint leaks without unnecessary demolition.",
             "category": "Leak Detection"
         },
         {
@@ -485,36 +516,36 @@
             "category": "Maintenance"
         },
         {
-            "question": "What should I avoid putting in my septic system?",
-            "answer": "Avoid flushing feminine products, diapers, wipes (even 'flushable' ones), paper towels, cooking grease, coffee grounds, chemicals, medications, and excessive bleach. These can damage your system and lead to costly repairs.",
-            "category": "Septic Services"
+            "question": "What is trenchless sewer repair?",
+            "answer": "Trenchless sewer repair is a modern method that allows us to repair or replace your sewer line without extensive excavation of your yard. Using specialized equipment, we can often complete the work through small access points, minimizing disruption to your landscaping and property.",
+            "category": "Sewer Services"
         }
     ],
     "seo": {
         "meta": {
-            "title": "Mobley Plumbing and Septic, LLC | Appling's Trusted Plumber & Septic Services | 24/7 Emergency",
-            "description": "Licensed Appling plumber and septic specialist offering 24/7 emergency service, drain cleaning, water heater installation, septic pumping & more. Upfront pricing, same-day service. Call (706) 699-5534",
-            "keywords": "Appling plumber, septic services Appling, emergency plumbing Appling, drain cleaning Appling, water heater installation Appling, plumbing services Appling GA, licensed plumber Appling, septic tank pumping Appling"
+            "title": "Omega Plumbing & Drain | San Antonio's Trusted Plumber & Drain Services | 24/7 Emergency",
+            "description": "Licensed San Antonio plumber and drain specialist offering 24/7 emergency service, drain cleaning, water heater installation, sewer line repair & more. Upfront pricing, same-day service. Call (210) 618-2887",
+            "keywords": "San Antonio plumber, drain cleaning San Antonio, emergency plumbing San Antonio, water heater installation San Antonio, plumbing services San Antonio TX, licensed plumber San Antonio, sewer line repair San Antonio"
         },
         "schema": {
             "@context": "https://schema.org",
             "@type": "Plumber",
-            "name": "Mobley Plumbing and Septic, LLC",
-            "image": "https://mobleyplumbingandseptic.com/logo.png",
-            "telephone": "(706) 699-5534",
-            "email": "mobleyplumbingandsepticllc@gmail.com",
+            "name": "Omega Plumbing & Drain",
+            "image": "https://omegaplumbingdrain.com/logo.png",
+            "telephone": "(210) 618-2887",
+            "email": "Omegaplumbing37405@gmail.com",
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Appling, GA",
-                "addressLocality": "Appling",
-                "addressRegion": "GA",
-                "postalCode": "30802",
+                "streetAddress": "6609 Blanco Rd Suite 140",
+                "addressLocality": "San Antonio",
+                "addressRegion": "TX",
+                "postalCode": "78216",
                 "addressCountry": "US"
             },
             "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": "33.5454",
-                "longitude": "-82.3137"
+                "latitude": "29.5111",
+                "longitude": "-98.4788"
             },
             "priceRange": "$$",
             "openingHoursSpecification": [
@@ -537,7 +568,7 @@
                     "closes": "17:00"
                 }
             ],
-            "areaServed": "Appling, GA & Surrounding Areas"
+            "areaServed": "San Antonio, TX & Surrounding Areas"
         }
     },
     "callToActions": {
@@ -547,11 +578,11 @@
         },
         "secondary": {
             "text": "Call Now",
-            "action": "tel:17066995534"
+            "action": "tel:12106182887"
         },
         "emergency": {
             "text": "24/7 Emergency Service",
-            "action": "tel:17066995534"
+            "action": "tel:12106182887"
         }
     }
 }
