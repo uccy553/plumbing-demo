@@ -18,7 +18,7 @@ export function TestimonialsSection({ testimonials, serviceAreas }: Testimonials
     const avgRating = calculateAverageRating(testimonials.map((t) => t.rating));
 
     return (
-        <section id="testimonials" className="py-16 lg:py-24 bg-white overflow-hidden">
+        <section id="testimonials" className="py-16 lg:py-24 bg-white">
             <div className="container mx-auto px-4">
                 {/* Section Header */}
                 <FadeInView className="text-center mb-12 lg:mb-16">
@@ -38,7 +38,7 @@ export function TestimonialsSection({ testimonials, serviceAreas }: Testimonials
                 </FadeInView>
 
                 {/* Testimonials Carousel */}
-                <div className="max-w-6xl mx-auto px-8">
+                <div className="max-w-7xl mx-auto px-8 pb-4 overflow-hidden">
                     <Carousel
                         autoPlay
                         autoPlayInterval={6000}
@@ -61,41 +61,45 @@ interface TestimonialCardProps {
 
 function TestimonialCard({ testimonial }: TestimonialCardProps) {
     return (
-        <Card className="h-full" padding="lg" hover={false}>
-            <CardContent className="flex flex-col h-full">
-                {/* Quote Icon */}
-                <Quote
-                    size={32}
-                    className="text-secondary-200 mb-4 transform -scale-x-100"
-                />
-
-                {/* Rating */}
-                <StarRating rating={testimonial.rating} className="mb-4" />
+        <Card className="h-full bg-gradient-to-br from-white to-neutral-50" padding="none" hover={false}>
+            <CardContent className="flex flex-col h-full p-5 lg:p-6">
+                {/* Header with Quote and Rating */}
+                <div className="flex items-start justify-between mb-4">
+                    <div className="w-10 h-10 bg-secondary-100 rounded-lg flex items-center justify-center">
+                        <Quote
+                            size={20}
+                            className="text-secondary-500 transform -scale-x-100"
+                        />
+                    </div>
+                    <StarRating rating={testimonial.rating} />
+                </div>
 
                 {/* Testimonial Text */}
-                <p className="text-neutral-700 leading-relaxed flex-1 mb-6 italic">
+                <blockquote className="text-neutral-700 text-base leading-relaxed flex-1 mb-5">
                     "{testimonial.text}"
-                </p>
+                </blockquote>
 
-                {/* Author Info */}
-                <div className="flex items-center gap-4 pt-4 border-t border-neutral-100">
-                    {/* Avatar */}
-                    <div className="w-12 h-12 rounded-full bg-primary-100 text-primary-900 flex items-center justify-center font-bold text-lg shrink-0">
-                        {testimonial.avatar}
-                    </div>
-
-                    <div className="flex-1 min-w-0">
-                        <div className="font-heading font-semibold text-primary-900">
-                            {testimonial.name}
+                {/* Author Info - Redesigned with more space */}
+                <div className="bg-white rounded-lg p-3 shadow-sm border border-neutral-100">
+                    <div className="flex items-center gap-3">
+                        {/* Avatar */}
+                        <div className="w-11 h-11 rounded-full bg-gradient-to-br from-primary-500 to-primary-700 text-white flex items-center justify-center font-bold text-base shadow-md">
+                            {testimonial.avatar}
                         </div>
-                        <div className="text-sm text-neutral-500">
-                            {testimonial.location}
-                        </div>
-                    </div>
 
-                    {/* Service Badge */}
-                    <div className="hidden sm:block">
-                        <span className="inline-block px-3 py-1 bg-primary-50 text-primary-900 text-xs font-medium rounded-full">
+                        {/* Name and Location */}
+                        <div className="flex-1 min-w-0">
+                            <h4 className="font-heading font-bold text-base text-primary-900">
+                                {testimonial.name}
+                            </h4>
+                            <p className="text-neutral-500 text-xs">
+                                {testimonial.location}
+                            </p>
+                        </div>
+
+                        {/* Service Badge - Inline with author */}
+                        <span className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-secondary-50 text-secondary-700 text-xs font-medium rounded-md">
+                            <span className="w-1.5 h-1.5 bg-secondary-500 rounded-full"></span>
                             {testimonial.service}
                         </span>
                     </div>
