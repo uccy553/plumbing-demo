@@ -1,25 +1,25 @@
 {
     "businessInfo": {
-        "name": "Dynamic Plumbing Solutions",
-        "shortNameLine1": "Dynamic",
-        "shortNameLine2": "Plumbing Solutions",
-        "tagline": "West Midlands' Trusted Plumbing Experts",
-        "description": "Professional plumbing services for residential and commercial properties throughout Walsall, Birmingham, Dudley, and surrounding West Midlands areas. Licensed, insured, and committed to excellence.",
-        "established": "2016",
-        "license": "UK1234567",
+        "name": "Sparkling City Plumbing",
+        "shortNameLine1": "Sparklings",
+        "shortNameLine2": "City Plumbing",
+        "tagline": "Corpus Christi's Trusted Plumbing Experts",
+        "description": "Professional plumbing services for residential and commercial properties throughout Corpus Christi and surrounding areas. Licensed, insured, and committed to excellence.",
+        "established": "2017",
+        "license": "TX1234567",
         "insured": true,
         "emergency24_7": true
     },
     "contact": {
-        "phone": "+44 7563 199547",
-        "phoneRaw": "447563199547",
-        "email": "Dynamicplumbings@gmail.com",
+        "phone": "(361) 854-2006",
+        "phoneRaw": "13618542006",
+        "email": "sparklingcityplumbing@gmail.com",
         "address": {
-            "street": "West Midlands",
-            "city": "Walsall",
-            "state": "West Midlands",
-            "zip": "",
-            "country": "United Kingdom"
+            "street": "5006 Williams Dr",
+            "city": "Corpus Christi",
+            "state": "TX",
+            "zip": "78411",
+            "country": "United States"
         },
         "hours": {
             "monday": "7:00 AM - 7:00 PM",
@@ -32,16 +32,16 @@
             "emergency": "24/7 Available"
         },
         "social": {
-            "facebook": "https://web.facebook.com/DynamicPlumbing/?_rdc=1&_rdr#",
+            "facebook": "https://web.facebook.com/sparklingcityplumbing/?_rdc=1&_rdr#",
             "instagram": "",
             "linkedin": ""
         }
     },
     "hero": {
-        "headline": "West Midlands' Trusted Plumbing Experts",
+        "headline": "Corpus Christi's Trusted Plumbing Experts",
         "subheadline": "Licensed Professionals • Upfront Pricing • Same-Day Service Available",
         "ctaPrimary": "Schedule Service",
-        "ctaSecondary": "Call +44 7563 199547",
+        "ctaSecondary": "Call (361) 854-2006",
         "backgroundImage": "/images/hero-plumbing-septic.jpg",
         "badges": [
             {
@@ -64,7 +64,7 @@
     },
     "emergencyBanner": {
         "text": "24/7 Emergency Plumbing Services Available",
-        "phone": "+44 7563 199547",
+        "phone": "(361) 854-2006",
         "backgroundColor": "#D32F2F"
     },
     "services": [
@@ -214,204 +214,136 @@
         },
         {
             "title": "Local Experts",
-            "description": "West Midlands natives who know the area's unique plumbing challenges.",
+            "description": "Corpus Christi natives who know the area's unique plumbing challenges.",
             "icon": "map-pin",
             "stat": "Local"
         }
     ],
     "serviceAreas": {
-        "mainArea": "West Midlands & Surrounding Areas",
-        "description": "Proudly serving Walsall, Birmingham, Dudley, and surrounding communities",
+        "mainArea": "Corpus Christi, TX & Surrounding Areas",
+        "description": "Proudly serving Corpus Christi and the surrounding communities",
         "cities": [
-            "Walsall",
-            "Birmingham",
-            "Dudley",
-            "Stourbridge",
-            "Oldbury",
-            "Wolverhampton",
-            "West Bromwich",
-            "Smethwick",
-            "Halesowen",
-            "Solihull",
-            "Coventry",
-            "Sutton Coldfield",
-            "Tamworth",
-            "Cannock",
-            "Brownhills"
+            "Corpus Christi",
+            "Portland",
+            "Aransas Pass",
+            "Rockport",
+            "Ingleside",
+            "Sinton",
+            "Mathis",
+            "Robstown",
+            "Bishop",
+            "Driscoll",
+            "Agua Dulce",
+            "Sandia",
+            "Alice",
+            "Kingsville",
+            "Beeville"
         ],
         "zipCodes": [
-            "WS1",
-            "WS2",
-            "WS3",
-            "WS4",
-            "WS5",
-            "WS6",
-            "WS7",
-            "WS8",
-            "WS9",
-            "WS10",
-            "WS11",
-            "WS12",
-            "WS13",
-            "WS14",
-            "WS15",
-            "B1",
-            "B2",
-            "B3",
-            "B4",
-            "B5",
-            "B6",
-            "B7",
-            "B8",
-            "B9",
-            "B10",
-            "B11",
-            "B12",
-            "B13",
-            "B14",
-            "B15",
-            "B16",
-            "B17",
-            "B18",
-            "B19",
-            "B20",
-            "B21",
-            "B23",
-            "B24",
-            "B25",
-            "B26",
-            "B27",
-            "B28",
-            "B29",
-            "B30",
-            "B31",
-            "B32",
-            "B33",
-            "B34",
-            "B35",
-            "B36",
-            "B37",
-            "B38",
-            "B40",
-            "B42",
-            "B43",
-            "B44",
-            "B45",
-            "B46",
-            "B47",
-            "B48",
-            "B50",
-            "B60",
-            "B61",
-            "B62",
-            "B63",
-            "B64",
-            "B65",
-            "B66",
-            "B67",
-            "B68",
-            "B69",
-            "B70",
-            "B71",
-            "B72",
-            "B73",
-            "B74",
-            "B75",
-            "B76",
-            "B77",
-            "B78",
-            "B79",
-            "B80",
-            "B90",
-            "B91",
-            "B92",
-            "B93",
-            "B94",
-            "B95",
-            "B96",
-            "B97",
-            "B98",
-            "DY1",
-            "DY2",
-            "DY3",
-            "DY4",
-            "DY5",
-            "DY6",
-            "DY7",
-            "DY8",
-            "DY9",
-            "DY10",
-            "DY11",
-            "DY12",
-            "DY13",
-            "DY14"
+            "78401",
+            "78402",
+            "78404",
+            "78405",
+            "78406",
+            "78407",
+            "78408",
+            "78409",
+            "78410",
+            "78411",
+            "78412",
+            "78413",
+            "78414",
+            "78415",
+            "78416",
+            "78417",
+            "78418",
+            "78419",
+            "78426",
+            "78427",
+            "78460",
+            "78463",
+            "78465",
+            "78466",
+            "78467",
+            "78468",
+            "78469",
+            "78470",
+            "78471",
+            "78472",
+            "78473",
+            "78474",
+            "78475",
+            "78476",
+            "78477",
+            "78478",
+            "78480"
         ]
     },
     "testimonials": [
         {
             "id": 1,
-            "name": "Sarah Williams",
-            "location": "Walsall, West Midlands",
+            "name": "Sarah Martinez",
+            "location": "Corpus Christi, TX",
             "rating": 5,
             "date": "2024-11-15",
-            "text": "Dynamic Plumbing saved us during a pipe burst emergency on a weekend. They arrived quickly and had everything fixed professionally. Fair pricing and excellent service!",
+            "text": "Sparkling City Plumbing saved us during a pipe burst emergency on a weekend. They arrived quickly and had everything fixed professionally. Fair pricing and excellent service!",
             "service": "Emergency Plumbing",
-            "avatar": "SW"
+            "avatar": "SM"
         },
         {
             "id": 2,
-            "name": "Michael Thompson",
-            "location": "Birmingham, West Midlands",
+            "name": "Michael Rodriguez",
+            "location": "Portland, TX",
             "rating": 5,
             "date": "2024-11-02",
-            "text": "Had them install a new combi boiler and clear our main drain line. The technician was knowledgeable, professional, and the prices were transparent. Highly recommend!",
+            "text": "Had them install a new tankless water heater and clear our main drain line. The technician was knowledgeable, professional, and the prices were transparent. Highly recommend!",
             "service": "Water Heater & Drain",
-            "avatar": "MT"
+            "avatar": "MR"
         },
         {
             "id": 3,
-            "name": "Jennifer Patel",
-            "location": "Dudley, West Midlands",
+            "name": "Jennifer Garcia",
+            "location": "Aransas Pass, TX",
             "rating": 5,
             "date": "2024-10-28",
-            "text": "We've used Dynamic Plumbing for several plumbing issues and maintenance work. Always prompt, professional, and fair priced. Our go-to plumbing company now.",
+            "text": "We've used Sparkling City for several plumbing issues and maintenance work. Always prompt, professional, and fair priced. Our go-to plumbing company now.",
             "service": "Plumbing Repairs",
-            "avatar": "JP"
+            "avatar": "JG"
         },
         {
             "id": 4,
-            "name": "David Khan",
-            "location": "Stourbridge, West Midlands",
+            "name": "David Hernandez",
+            "location": "Rockport, TX",
             "rating": 5,
             "date": "2024-10-15",
             "text": "Called about a persistent drain issue. They used a camera to find the problem and hydro-jetted the line. Problem solved! Great diagnostic work and fair pricing.",
             "service": "Drain Cleaning",
-            "avatar": "DK"
+            "avatar": "DH"
         },
         {
             "id": 5,
-            "name": "Lisa Evans",
-            "location": "Oldbury, West Midlands",
+            "name": "Lisa Gonzales",
+            "location": "Ingleside, TX",
             "rating": 5,
             "date": "2024-09-30",
             "text": "Very impressed with their professionalism. The plumber wore shoe covers, explained everything clearly, and left everything clean. Quality work!",
             "service": "Leak Repair",
-            "avatar": "LE"
+            "avatar": "LG"
         },
         {
             "id": 6,
-            "name": "Robert Davies",
-            "location": "Wolverhampton, West Midlands",
+            "name": "Robert Lopez",
+            "location": "Sinton, TX",
             "rating": 5,
             "date": "2024-09-18",
             "text": "We needed sewer line work and were dreading the disruption. They used trenchless technology and completed everything efficiently. Incredible service!",
             "service": "Sewer Line",
-            "avatar": "RD"
+            "avatar": "RL"
         }
     ],
     "about": {
-        "headline": "Your Trusted West Midlands Plumbing Partner",
-        "story": "Dynamic Plumbing Solutions was founded with a simple mission: to provide West Midlands homeowners and businesses with honest, professional plumbing services they can trust. As a locally owned and operated company, we understand the unique plumbing challenges that properties in Walsall, Birmingham, Dudley, and surrounding areas face, from aging infrastructure to modern plumbing needs.\n\nOur team of licensed, experienced professionals treats every job with the same care and attention we'd want for our own homes. We believe in doing the job right the first time, using quality materials, and standing behind our work with solid warranties.\n\nWhat sets us apart is our comprehensive approach to plumbing solutions, combined with our commitment to transparency. We provide upfront pricing, explain your options clearly, and never pressure you into unnecessary services. When you call Dynamic Plumbing Solutions, you're getting straight answers and skilled craftsmanship.",
+        "headline": "Your Trusted Corpus Christi Plumbing Partner",
+        "story": "Sparkling City Plumbing was founded with a simple mission: to provide Corpus Christi area homeowners and businesses with honest, professional plumbing services they can trust. As a locally owned and operated company, we understand the unique plumbing challenges that coastal Texas properties face, from saltwater corrosion to aging infrastructure.\n\nOur team of licensed, experienced professionals treats every job with the same care and attention we'd want for our own homes. We believe in doing the job right the first time, using quality materials, and standing behind our work with solid warranties.\n\nWhat sets us apart is our comprehensive approach to plumbing solutions, combined with our commitment to transparency. We provide upfront pricing, explain your options clearly, and never pressure you into unnecessary services. When you call Sparkling City Plumbing, you're getting straight answers and skilled craftsmanship.",
         "mission": "To deliver exceptional plumbing services with integrity, professionalism, and a commitment to customer satisfaction.",
         "values": [
             "Honesty and transparency in all interactions",
@@ -421,14 +353,14 @@
             "Community involvement and support"
         ],
         "certifications": [
-            "UK Licensed Plumbing Contractor",
+            "State of Texas Licensed Plumbing Contractor",
             "Fully Insured & Bonded",
-            "Gas Safe Registered",
-            "WaterSafe Approved",
+            "EPA Lead-Safe Certified",
+            "OSHA Safety Trained",
             "Background Checked Technicians"
         ],
         "team": {
-            "description": "Our team consists of licensed plumbers and heating engineers who undergo regular training on the latest technologies and techniques. Every team member is background checked, certified, and committed to providing exceptional service.",
+            "description": "Our team consists of licensed plumbers who undergo regular training on the latest technologies and techniques. Every team member is background checked, drug tested, and committed to providing exceptional service.",
             "size": "Skilled Professionals"
         }
     },
@@ -436,7 +368,7 @@
         {
             "step": 1,
             "title": "Contact Us",
-            "description": "Call us at +44 7563 199547 or book online. We'll discuss your plumbing needs and schedule a convenient time.",
+            "description": "Call us at (361) 854-2006 or book online. We'll discuss your plumbing needs and schedule a convenient time.",
             "icon": "phone"
         },
         {
@@ -467,10 +399,10 @@
     "promotions": [
         {
             "id": "first-time",
-            "title": "£50 Off First Service",
-            "description": "New customers save £50 on any service over £200",
+            "title": "$50 Off First Service",
+            "description": "New customers save $50 on any service over $200",
             "code": "WELCOME50",
-            "terms": "Valid for new customers only. Minimum service charge £200. Cannot be combined with other offers.",
+            "terms": "Valid for new customers only. Minimum service charge $200. Cannot be combined with other offers.",
             "expiration": "2025-12-31",
             "active": true
         },
@@ -484,11 +416,11 @@
             "active": true
         },
         {
-            "id": "emergency",
-            "title": "Emergency Service Discount",
-            "description": "10% off emergency call-out charges",
-            "code": "EMERGENCY10",
-            "terms": "Valid for emergency services only. Cannot be combined with other offers.",
+            "id": "military",
+            "title": "Military & First Responder Discount",
+            "description": "15% off for active military, veterans, police, and firefighters",
+            "code": "HEROES15",
+            "terms": "Valid ID required. Cannot be combined with other offers. Discount applies to labor only.",
             "expiration": null,
             "active": true
         },
@@ -505,7 +437,7 @@
     "faq": [
         {
             "question": "Do you offer 24/7 emergency plumbing services?",
-            "answer": "Yes! We provide 24/7 emergency plumbing services throughout the West Midlands area. Whether it's a burst pipe at 2 AM or a major drain backup on a holiday, we're here to help. Call +44 7563 199547 anytime for immediate assistance.",
+            "answer": "Yes! We provide 24/7 emergency plumbing services throughout the Corpus Christi area. Whether it's a burst pipe at 2 AM or a major drain backup on a holiday, we're here to help. Call (361) 854-2006 anytime for immediate assistance.",
             "category": "Emergency Services"
         },
         {
@@ -520,12 +452,12 @@
         },
         {
             "question": "Are you licensed and insured?",
-            "answer": "Yes, Dynamic Plumbing Solutions is fully licensed, bonded, and insured. All our technicians are licensed professionals who undergo regular training and background checks. We are also Gas Safe registered and WaterSafe approved.",
+            "answer": "Yes, Sparkling City Plumbing is fully licensed by the State of Texas, bonded, and insured. All our technicians are licensed professionals who undergo regular training and background checks.",
             "category": "Credentials"
         },
         {
             "question": "What payment methods do you accept?",
-            "answer": "We accept all major credit/debit cards (Visa, MasterCard, American Express), bank transfers, checks, and cash. We also offer financing options for larger projects through approved credit partners.",
+            "answer": "We accept all major credit cards (Visa, MasterCard, American Express, Discover), debit cards, checks, and cash. We also offer financing options for larger projects through approved credit partners.",
             "category": "Pricing"
         },
         {
@@ -539,13 +471,13 @@
             "category": "Drain Services"
         },
         {
-            "question": "How do I know if I need to replace or repair my boiler?",
-            "answer": "Generally, if your boiler is over 10-12 years old, making unusual noises, leaking, or not providing consistent heating/hot water, replacement is often more cost-effective than repair. Our technicians will assess your specific situation and provide honest recommendations.",
+            "question": "How do I know if I need to replace or repair my water heater?",
+            "answer": "Generally, if your water heater is over 10-12 years old, making unusual noises, leaking, or not providing consistent hot water, replacement is often more cost-effective than repair. Our technicians will assess your specific situation and provide honest recommendations.",
             "category": "Water Heaters"
         },
         {
             "question": "What should I do if I have a major drain backup?",
-            "answer": "First, stop using all water in your home immediately. Then call us at +44 7563 199547 for emergency service. Avoid flushing toilets, running faucets, or using appliances that drain water. Our emergency team will arrive quickly to address the issue.",
+            "answer": "First, stop using all water in your home immediately. Then call us at (361) 854-2006 for emergency service. Avoid flushing toilets, running faucets, or using appliances that drain water. Our emergency team will arrive quickly to address the issue.",
             "category": "Emergency Services"
         },
         {
@@ -560,7 +492,7 @@
         },
         {
             "question": "What areas do you serve?",
-            "answer": "We serve Walsall, Birmingham, Dudley, Stourbridge, Oldbury, and all surrounding West Midlands communities. If you're in the West Midlands area, give us a call and we'll let you know if we can help.",
+            "answer": "We serve Corpus Christi and all surrounding communities including Portland, Aransas Pass, Rockport, Ingleside, Sinton, and more. If you're in the Coastal Bend area, give us a call and we'll let you know if we can help.",
             "category": "Service Area"
         },
         {
@@ -581,31 +513,31 @@
     ],
     "seo": {
         "meta": {
-            "title": "Dynamic Plumbing Solutions | West Midlands' Trusted Plumber | 24/7 Emergency",
-            "description": "Licensed West Midlands plumber offering 24/7 emergency service, drain cleaning, boiler installation, sewer line repair & more. Upfront pricing, same-day service. Call +44 7563 199547",
-            "keywords": "Walsall plumber, Birmingham plumbing, emergency plumber West Midlands, drain cleaning Dudley, boiler installation Stourbridge, plumbing services Oldbury, licensed plumber West Midlands"
+            "title": "Sparkling City Plumbing | Corpus Christi's Trusted Plumber | 24/7 Emergency",
+            "description": "Licensed Corpus Christi plumber offering 24/7 emergency service, drain cleaning, water heater installation, sewer line repair & more. Upfront pricing, same-day service. Call (361) 854-2006",
+            "keywords": "Corpus Christi plumber, emergency plumbing Corpus Christi, drain cleaning Corpus Christi, water heater installation Corpus Christi, plumbing services Corpus Christi TX, licensed plumber Corpus Christi, sewer line repair Corpus Christi"
         },
         "schema": {
             "@context": "https://schema.org",
             "@type": "Plumber",
-            "name": "Dynamic Plumbing Solutions",
-            "image": "https://dynamicplumbingsolutions.com/logo.png",
-            "telephone": "+44 7563 199547",
-            "email": "Dynamicplumbings@gmail.com",
+            "name": "Sparkling City Plumbing",
+            "image": "https://sparklingcityplumbing.com/logo.png",
+            "telephone": "(361) 854-2006",
+            "email": "sparklingcityplumbing@gmail.com",
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "West Midlands",
-                "addressLocality": "Walsall",
-                "addressRegion": "West Midlands",
-                "postalCode": "",
-                "addressCountry": "GB"
+                "streetAddress": "5006 Williams Dr",
+                "addressLocality": "Corpus Christi",
+                "addressRegion": "TX",
+                "postalCode": "78411",
+                "addressCountry": "US"
             },
             "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": "52.5862",
-                "longitude": "-1.9829"
+                "latitude": "27.7353",
+                "longitude": "-97.3842"
             },
-            "priceRange": "££",
+            "priceRange": "$$",
             "openingHoursSpecification": [
                 {
                     "@type": "OpeningHoursSpecification",
@@ -626,7 +558,7 @@
                     "closes": "17:00"
                 }
             ],
-            "areaServed": "West Midlands & Surrounding Areas"
+            "areaServed": "Corpus Christi, TX & Surrounding Areas"
         }
     },
     "callToActions": {
@@ -636,11 +568,11 @@
         },
         "secondary": {
             "text": "Call Now",
-            "action": "tel:447563199547"
+            "action": "tel:13618542006"
         },
         "emergency": {
             "text": "24/7 Emergency Service",
-            "action": "tel:447563199547"
+            "action": "tel:13618542006"
         }
     }
 }

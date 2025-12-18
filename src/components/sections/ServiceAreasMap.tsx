@@ -27,12 +27,12 @@ export function ServiceAreasMap({ serviceAreas, contact }: ServiceAreasMapProps)
                         <div className="relative aspect-square lg:aspect-[4/3] rounded-2xl overflow-hidden shadow-elevated">
                             {/* Google Maps Embed */}
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1266655.4563885126!2d-5.466652037499996!3d51.67930650000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e222cf1e7aaab%3A0x40c49e714654faca!2sDynamic%20Plumbing%20Solutions!5e0!3m2!1sen!2sng!4v1765989444778!5m2!1sen!2sng"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.2399079379375!2d-97.38477592465338!3d27.70987807618113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86685fea1863be5b%3A0x15795460d57fc774!2sSparkling%20City%20Plumbing!5e0!3m2!1sen!2sng!4v1766086608958!5m2!1sen!2sng"
                                 className="absolute inset-0 w-full h-full border-0"
                                 allowFullScreen
                                 loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade"
-                                title="Dynamic Plumbing Solutions Service Area Map"
+                                title="Sparkling City Plumbing Service Area Map"
                             />
                         </div>
                     </SlideInView>

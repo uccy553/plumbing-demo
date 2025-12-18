@@ -68,6 +68,7 @@ export function ContactForm({ services }: ContactFormProps) {
     const inputClassName = cn(
         'w-full px-4 py-3 rounded-lg',
         'border border-neutral-200',
+        'text-neutral-900 bg-white',
         'focus:border-primary-500 focus:ring-2 focus:ring-primary-500/20',
         'transition-all duration-200',
         'placeholder:text-neutral-400'
